@@ -19,7 +19,7 @@
 
 \section{Informationsstrukturanforderungen}
 
-Im folgenden sind die Objekte und Beziehungen des Wahlinformationssystems strukturell beschrieben. Angaben zur Anzahl bestimmter Objekte sind den Bestimmungen zur Bundestagswahl des Jahres 2009 entnommen.
+Im Folgenden sind die Objekte und Beziehungen des Wahlinformationssystems strukturell beschrieben. Angaben zur Anzahl bestimmter Objekte sind den Bestimmungen zur Bundestagswahl des Jahres 2009 entnommen.
 
 Eine zentrale Rolle bei einer Wahl spielen die Wahlberechtigten:
 
@@ -29,7 +29,7 @@ Eine zentrale Rolle bei einer Wahl spielen die Wahlberechtigten:
 \item Anzahl: 62\,168\,489
 \item Attribute
 	\begin{itemize}
-	\item Wählernummer
+	\item Wählerverzeichnisnummer
 		\begin{itemize}
 		\item Typ: integer
 		\item Anzahl Wiederholungen: 0
@@ -57,7 +57,7 @@ Zur geographischen Einordnung der Wahlberechtigten dient die folgende Hierachie 
 	\begin{itemize}
 		\item Typ: character
 		\item Länge: 50
-		\item Wertebereich: Baden-Württemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen-Anhalt, Schleswig-Holstein, Thüringen
+		\item Wertebereich: Baden-Württemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thüringen
 		\item Anzahl Wiederholungen: 0
 		\item Definiertheit: 100\%
 		\item Identifizierend: ja
@@ -95,15 +95,11 @@ Zur geographischen Einordnung der Wahlberechtigten dient die folgende Hierachie 
 \item Besonderheit: Exklusiv und Existenzabhängig von Wahlkreis
 \item Anzahl: ca. 25\,000
 \item Attribute
-\begin{itemize}
-\item Besonderheit: Exklusiv und Existenzabhängig von Bundesland
-\item Anzahl: 299
-\item Attribute
 	\begin{itemize}
 	\item Wahlbezirknummer
 		\begin{itemize}
 		\item Typ: integer
-		\item Wertebereich: 1 \ldots 299
+		\item Wertebereich: 1 \ldots 25\,000
 		\item Anzahl Wiederholungen: 0
 		\item Definiertheit: 100\%
 		\item Identifizierend: ja
@@ -117,7 +113,6 @@ Zur geographischen Einordnung der Wahlberechtigten dient die folgende Hierachie 
 		\item Identifizierend: nein
 		\end{itemize}
 	\end{itemize}
-\end{itemize}
 \end{itemize}
 
 Stimmzettel werden im System gespeichert um eine spätere Berechnung der Sitzverteilung zu gewährleisten. Da eine Zweitstimme nicht zählt, falls bei der Erststimme ein parteiloser Kandidat gewählt wurde und dieser in den Bundestag einzieht, müssen sogar Erst- und Zweitstimme mit einer Zuordnung abgebildet werden:
@@ -170,10 +165,17 @@ Gewählt werden können bei einer Bundestagswahl eine Landesliste einer Partei d
 
 \paragraph{Partei}
 \begin{itemize}
-\item Anzahl: 27
+\item Anzahl: 29
 \item Attribute
 	\begin{itemize}
-	\item 
+	\item Name
+	\begin{itemize}
+		\item Typ: character
+		\item Länge: 100
+		\item Wertebereich: „Ab jetzt...Bündnis für Deutschland, für Demokratie durch Volksabstimmung“, „Allianz der Mitte“, „Bayernpartei“, „BÜNDNIS 90/DIE GRÜNEN“, „Bürgerrechtsbewegung Solidarität“, „Christlich Demokratische Union Deutschlands“, „CHRISTLICHE MITTE - Für ein Deutschland nach GOTTES Geboten“, „Christlich-Soziale Union in Bayern e.V.“, „Demokratische Volkspartei Deutschland“, „Deutsche Kommunistische Partei“, „DEUTSCHE VOLKSUNION“, „Deutsche Zentrumspartei - Älteste Partei Deutschlands gegründet 1870“, „DIE LINKE“, „DIE REPUBLIKANER“, „Zusatzbezeichnung: für spirituelle Politik“, „Familien-Partei Deutschlands“, „Freie Demokratische Partei“, „Freie Union“, „Freie Wähler Deutschland“, „Marxistisch-Leninistische Partei Deutschlands“, „Mensch Umwelt Tierschutz“, „Nationaldemokratische Partei Deutschlands“, „Ökologisch-Demokratische Partei“, „Partei Bibeltreuer Christen“, „Partei für Soziale Gleichheit, Sektion der Vierten Internationale“, „Piratenpartei Deutschland “, „Rentnerinnen und Rentner Partei“, „Rentner-Partei-Deutschland“, „Sozialdemokratische Partei Deutschlands“
+		\item Definiertheit: 100\%
+		\item Identifizierend: ja
+		\end{itemize}
 	\end{itemize}
 \end{itemize}
 
