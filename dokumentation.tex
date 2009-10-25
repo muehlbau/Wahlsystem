@@ -1,7 +1,9 @@
 \documentclass[a4paper]{article}
 \usepackage[german]{babel}
 \usepackage[dvips]{graphicx}
-\usepackage[utf8]{inputenc}
+\usepackage[dvips,a4paper=true,backref=true,hyperindex=false,colorlinks=false,pdfhighlight=/N,linkbordercolor={0 0 0}, pdfborder={0 0 0},breaklinks=true,pdftitle={Dokumentation: Wahlinformationssystem}, pdfauthor={Tobias Johann Mühlbauer, Wolf Rödiger},pdfproducer={Latex},pdfcreator={LaTex+dvips+ps2pdf}]{hyperref}
+\usepackage{breakurl}\usepackage[utf8]{inputenc}
+\usepackage{url}
 \author{Wolf Rödiger, Tobias Mühlbauer \\ roediger at in.tum.de, muehlbau at in.tum.de}
 \title{Dokumentation: Wahlinformationssystem}
 
@@ -17,12 +19,205 @@
 
 \section{Informationsstrukturanforderungen}
 
+Im folgenden sind die Objekte und Beziehungen des Wahlinformationssystems strukturell beschrieben. Angaben zur Anzahl bestimmter Objekte sind den Bestimmungen zur Bundestagswahl des Jahres 2009 entnommen.
+
+Eine zentrale Rolle bei einer Wahl spielen die Wahlberechtigten:
+
+\paragraph{Wahlberechtigter}
+\begin{itemize}
+\item Besonderheit: Exklusiv und Existenzabhängig von Wahlbezirk
+\item Anzahl: 62\,168\,489
+\item Attribute
+	\begin{itemize}
+	\item Wählernummer
+		\begin{itemize}
+		\item Typ: integer
+		\item Anzahl Wiederholungen: 0
+		\item Definiertheit: 100\%
+		\item Identifizierend: ja
+		\end{itemize}
+	\item StimmeAbgegeben
+		\begin{itemize}
+		\item Typ: boolean
+		\item Anzahl Wiederholungen: beliebig
+		\item Definiertheit: 100\%
+		\item Identifizierend: nein
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+Zur geographischen Einordnung der Wahlberechtigten dient die folgende Hierachie von Objekten:
+
+\paragraph{Bundesland}
+\begin{itemize}
+\item Anzahl: 16
+\item Attribute
+	\begin{itemize}
+	\item Name
+	\begin{itemize}
+		\item Typ: character
+		\item Länge: 50
+		\item Wertebereich: Baden-Württemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen-Anhalt, Schleswig-Holstein, Thüringen
+		\item Anzahl Wiederholungen: 0
+		\item Definiertheit: 100\%
+		\item Identifizierend: ja
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\paragraph{Wahlkreis}
+\begin{itemize}
+\item Besonderheit: Exklusiv und Existenzabhängig von Bundesland
+\item Anzahl: 299
+\item Attribute
+	\begin{itemize}
+	\item Wahlkreisnummer
+		\begin{itemize}
+		\item Typ: integer
+		\item Wertebereich: 1 \ldots 299
+		\item Anzahl Wiederholungen: 0
+		\item Definiertheit: 100\%
+		\item Identifizierend: ja
+		\end{itemize}
+	\item Name
+		\begin{itemize}
+		\item Typ: character
+		\item Länge: 250
+		\item Anzahl Wiederholungen: beliebig
+		\item Definiertheit: 100\%
+		\item Identifizierend: nein
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\paragraph{Wahlbezirk}
+\begin{itemize}
+\item Besonderheit: Exklusiv und Existenzabhängig von Wahlkreis
+\item Anzahl: ca. 25\,000
+\item Attribute
+\begin{itemize}
+\item Besonderheit: Exklusiv und Existenzabhängig von Bundesland
+\item Anzahl: 299
+\item Attribute
+	\begin{itemize}
+	\item Wahlbezirknummer
+		\begin{itemize}
+		\item Typ: integer
+		\item Wertebereich: 1 \ldots 299
+		\item Anzahl Wiederholungen: 0
+		\item Definiertheit: 100\%
+		\item Identifizierend: ja
+		\end{itemize}
+	\item Name
+		\begin{itemize}
+		\item Typ: character
+		\item Länge: 250
+		\item Anzahl Wiederholungen: beliebig
+		\item Definiertheit: 100\%
+		\item Identifizierend: nein
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+\end{itemize}
+
+Stimmzettel werden im System gespeichert um eine spätere Berechnung der Sitzverteilung zu gewährleisten. Da eine Zweitstimme nicht zählt, falls bei der Erststimme ein parteiloser Kandidat gewählt wurde und dieser in den Bundestag einzieht, müssen sogar Erst- und Zweitstimme mit einer Zuordnung abgebildet werden:
+
+\paragraph{Stimmzettel}
+\begin{itemize}
+\item Anzahl: max. Anzahl der Wahlberechtigten
+\item Attribute
+	\begin{itemize}
+	\item Referenznummer
+		\begin{itemize}
+		\item Typ: integer
+		\item Wertebereich: 1 \ldots 299
+		\item Anzahl Wiederholungen: 0
+		\item Definiertheit: 100\%
+		\item Identifizierend: ja
+		\end{itemize}
+	\item Name
+		\begin{itemize}
+		\item Typ: character
+		\item Länge: 250
+		\item Anzahl Wiederholungen: beliebig
+		\item Definiertheit: 100\%
+		\item Identifizierend: nein
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\paragraph{Erststimme}
+\begin{itemize}
+\item Besonderheit: Exklusiv und Existenzabhängig von Stimmzettel
+\item Anzahl: max. Anzahl der Wahlberechtigten
+\item Attribute
+	\begin{itemize}
+	\item 
+	\end{itemize}
+\end{itemize}
+
+\paragraph{Zweitstimme}
+\begin{itemize}
+\item Besonderheit: Exklusiv und Existenzabhängig von Stimmzettel
+\item Anzahl: max. Anzahl der Wahlberechtigten
+\item Attribute
+	\begin{itemize}
+	\item 
+	\end{itemize}
+\end{itemize}
+
+Gewählt werden können bei einer Bundestagswahl eine Landesliste einer Partei des Bundeslandes mit der Zweit- und ein Direktkandidat des Wahlkreises mit der Erststimme:
+
+\paragraph{Partei}
+\begin{itemize}
+\item Anzahl: 27
+\item Attribute
+	\begin{itemize}
+	\item 
+	\end{itemize}
+\end{itemize}
+
+\paragraph{Kandidat}
+\begin{itemize}
+\item Anzahl: 
+\item Attribute
+	\begin{itemize}
+	\item 
+	\end{itemize}
+\end{itemize}
+
+\paragraph{Landesliste}
+\begin{itemize}
+\item Anzahl: 200
+\item Attribute
+	\begin{itemize}
+	\item 
+	\end{itemize}
+\end{itemize}
+
+
+
 \section{Datenverarbeitungsanforderungen}
 
 \section{UML-Modell}
 
 \section{Integritätsbedingungen}
 
+Die Integritätsbedingungen für das Wahlinformationssystem ergeben sich aus dem für die Bundestagswahl 2009 gültigen Bundeswahlgesetz (BWG) und Wahlstatistikgesetz (WStatG). Als Grundlage für den Gesetzestext dient [\url{http://www.bundeswahlleiter.de/de/bundestagswahlen/rechtsgrundlagen}].
+
+\paragraph{Bundestag:} Im Normalfall besteht der Bundestag aus 598 Abgeordneten, wovon 299 durch die Gewinner der 299 Wahlkreise bestimmt werden. Die Größe des Parlaments ist nach unten durch 299 und nach oben durch 897 Sitze beschränkt. 
+
+\paragraph{Geographische Einteilung:} Die Bundesrepublik Deutschland besteht derzeit aus 16 Bundesländern. Jedes Bundesland ist in Wahlkreise eingeteilt. Ein Wahlkreis kann nur zu einem Bundesland gehören. Wahlkreise sind in Wahlbezirke eingeteilt.
+
+\paragraph{Stimmabgabe:} Jeder Wahlberechtigte darf genau einmal eine Erst- und eine Zweitstimme abgeben. Jeder Wahlberechtigte ist einem Wahlbezirk zugeordnet und darf nur einen der Wahlkreiskandidaten mit der Erststimme wählen. Mit der Zweitstimme kann nur eine Landesliste einer Partei gewählt werden, die in dem Bundesland antritt, in dem der Wahlberechtigte seine Stimme abgibt. Es ist möglich, dass nur eine Erst- oder nur eine Zweitstimme abgegeben wird.
+
+\paragraph{Landeslisten:} Eine Partei hat maximal 16 und pro Bundesland maximal eine Landesliste. Ein Listenplatz einer Partei in einem Bundesland ist nur einmal besetzt. Listenplätze sind positiv anzugeben. Ein Kandidat kann nur einen Listenplatz belegen und nur auf einer Landesliste stehen.
+
+\paragraph{Wahlkreiskandidaten:} In jedem der 299 Wahlkreise wird genau ein Abgeordneter gewählt. Gewählt ist der Kandidat, der die meisten Stimmen auf sich vereinigt. Bei Stimmgleichheit entscheidet das Los. Das DBMS muss sicherstellen, dass es nur einen Gewinner in einem Wahlkreis gibt. Wahlkreiskandidaten können parteilos sein oder genau einer Partei angehören. Falls ein parteiloser Kandidat einen Wahlkreis gewinnt, werden die Zweitstimmen, die zusammen mit Erststimmen für diesen Kandidaten abgegeben wurden, aus Gerechtigkeitsgründen ungültig. Pro Wahlkreis hat eine Partei höchstens einen Direktkandidaten.
+
 \section{Datenschutzanforderungen}
+
+Wahlberechtigter - Stimmzettel (Flags statt Referenzen)
+Wegen Deduktionsregeln: Keine Sicht auf Stimmzettelebene, außer für Bundeswahlleiter (Sichten)
 
 \end{document}
