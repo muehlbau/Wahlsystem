@@ -1,7 +1,7 @@
 \documentclass[a4paper]{article}
 \usepackage[german]{babel}
-\usepackage[dvips]{graphicx}
-\usepackage[dvips,a4paper=true,backref=true,hyperindex=false,colorlinks=false,pdfhighlight=/N,linkbordercolor={0 0 0}, pdfborder={0 0 0},breaklinks=true,pdftitle={Dokumentation: Wahlinformationssystem}, pdfauthor={Tobias Johann Mühlbauer, Wolf Rödiger},pdfproducer={Latex},pdfcreator={LaTex+dvips+ps2pdf}]{hyperref}
+\usepackage[pdftex]{graphicx}
+\usepackage[pdftex,a4paper=true,backref=true,hyperindex=false,colorlinks=false,pdfhighlight=/N,linkbordercolor={0 0 0}, pdfborder={0 0 0},breaklinks=true,pdftitle={Dokumentation: Wahlinformationssystem}, pdfauthor={Tobias Johann Mühlbauer, Wolf Rödiger},pdfproducer={Latex},pdfcreator={LaTex+dvips+ps2pdf}]{hyperref}
 \usepackage{breakurl}\usepackage[utf8]{inputenc}
 \usepackage{url}
 \author{Wolf Rödiger, Tobias Mühlbauer \\ roediger at in.tum.de, muehlbau at in.tum.de}
@@ -120,45 +120,18 @@ Stimmzettel werden im System gespeichert um eine spätere Berechnung der Sitzver
 \paragraph{Stimmzettel}
 \begin{itemize}
 \item Anzahl: max. Anzahl der Wahlberechtigten
-\item Attribute
-	\begin{itemize}
-	\item Referenznummer
-		\begin{itemize}
-		\item Typ: integer
-		\item Wertebereich: 1 \ldots 299
-		\item Anzahl Wiederholungen: 0
-		\item Definiertheit: 100\%
-		\item Identifizierend: ja
-		\end{itemize}
-	\item Name
-		\begin{itemize}
-		\item Typ: character
-		\item Länge: 250
-		\item Anzahl Wiederholungen: beliebig
-		\item Definiertheit: 100\%
-		\item Identifizierend: nein
-		\end{itemize}
-	\end{itemize}
 \end{itemize}
 
 \paragraph{Erststimme}
 \begin{itemize}
 \item Besonderheit: Exklusiv und Existenzabhängig von Stimmzettel
 \item Anzahl: max. Anzahl der Wahlberechtigten
-\item Attribute
-	\begin{itemize}
-	\item 
-	\end{itemize}
 \end{itemize}
 
 \paragraph{Zweitstimme}
 \begin{itemize}
 \item Besonderheit: Exklusiv und Existenzabhängig von Stimmzettel
 \item Anzahl: max. Anzahl der Wahlberechtigten
-\item Attribute
-	\begin{itemize}
-	\item 
-	\end{itemize}
 \end{itemize}
 
 Gewählt werden können bei einer Bundestagswahl eine Landesliste einer Partei des Bundeslandes mit der Zweit- und ein Direktkandidat des Wahlkreises mit der Erststimme:
@@ -168,15 +141,23 @@ Gewählt werden können bei einer Bundestagswahl eine Landesliste einer Partei d
 \item Anzahl: 29
 \item Attribute
 	\begin{itemize}
+	\item Kurzbezeichnung
+	\begin{itemize}
+		\item Typ: character
+		\item Länge: 25
+		\item Wertebereich: SPD, CDU, FDP, DIE LINKE, GRÜNE, CSU, NPD, MLPD, PIRATEN, DVU, REP, ÖDP, BÜSO, DIE TIERSCHUTZPARTEI, RRP, FAMILIE, PBC, DIE VIOLETTEN, RENTNER, PSG, VOLKSABSTIMMUNG, CM, BP, DKP, ADM, FWD, ZENTRUM
+		\item Definiertheit: 100\%
+		\item Identifizierend: ja
+	\end{itemize}
 	\item Name
 	\begin{itemize}
 		\item Typ: character
-		\item Länge: 100
-		\item Wertebereich: „Ab jetzt...Bündnis für Deutschland, für Demokratie durch Volksabstimmung“, „Allianz der Mitte“, „Bayernpartei“, „BÜNDNIS 90/DIE GRÜNEN“, „Bürgerrechtsbewegung Solidarität“, „Christlich Demokratische Union Deutschlands“, „CHRISTLICHE MITTE - Für ein Deutschland nach GOTTES Geboten“, „Christlich-Soziale Union in Bayern e.V.“, „Demokratische Volkspartei Deutschland“, „Deutsche Kommunistische Partei“, „DEUTSCHE VOLKSUNION“, „Deutsche Zentrumspartei - Älteste Partei Deutschlands gegründet 1870“, „DIE LINKE“, „DIE REPUBLIKANER“, „Zusatzbezeichnung: für spirituelle Politik“, „Familien-Partei Deutschlands“, „Freie Demokratische Partei“, „Freie Union“, „Freie Wähler Deutschland“, „Marxistisch-Leninistische Partei Deutschlands“, „Mensch Umwelt Tierschutz“, „Nationaldemokratische Partei Deutschlands“, „Ökologisch-Demokratische Partei“, „Partei Bibeltreuer Christen“, „Partei für Soziale Gleichheit, Sektion der Vierten Internationale“, „Piratenpartei Deutschland “, „Rentnerinnen und Rentner Partei“, „Rentner-Partei-Deutschland“, „Sozialdemokratische Partei Deutschlands“
+		\item Länge: 150
+		\item Wertebereich: ``Sozialdemokratische Partei Deutschlands", ``Christlich Demokratische Union Deutschlands", ``Freie Demokratische Partei", ``Die Linke", ``Bündnis 90/Die Grünen", ``Christlich-Soziale Union in Bayern", ``Nationaldemokratische Partei Deutschlands", ``Marxistisch-Leninistische Partei Deutschlands", ``Piratenpartei Deutschland", ``Deutsche Volksunion", ``Die Republikaner", ``Ökologisch-Demokratische Partei", ``Bürgerrechtsbewegung Solidarität", ``Mensch Umwelt Tierschutz", ``Rentnerinnen- und Rentner-Partei", ``Familien-Partei Deutschlands", ``Partei Bibeltreuer Christen", ``Die Violetten - Für spirituelle Politik", ``Rentner-Partei-Deutschland", ``Partei für Soziale Gleichheit, Sektion der Vierten Internationale", ``Ab jetzt…Bündnis für Deutschland, für Demokratie durch Volksabstimmung", ``Christliche Mitte – für ein Deutschland nach Gottes Geboten", ``Bayernpartei", ``Deutsche Kommunistische Partei",``Allianz der Mitte", ``Freie Wähler Deutschland", ``Deutsche Zentrumspartei – Älteste Partei Deutschlands gegründet 1870"
 		\item Definiertheit: 100\%
 		\item Identifizierend: ja
-		\end{itemize}
 	\end{itemize}
+\end{itemize}
 \end{itemize}
 
 \paragraph{Kandidat}
@@ -184,24 +165,99 @@ Gewählt werden können bei einer Bundestagswahl eine Landesliste einer Partei d
 \item Anzahl: 
 \item Attribute
 	\begin{itemize}
-	\item 
+	\item Kandidatennummer
+		\begin{itemize}
+		\item Typ: integer
+		\item Anzahl Wiederholungen: 0
+		\item Definiertheit: 100\%
+		\item Identifizierend: ja
+		\end{itemize}
+	\item Name
+		\begin{itemize}
+		\item Typ: character
+		\item Länge: 150
+		\item Anzahl Wiederholungen: beliebig
+		\item Definiertheit: 100\%
+		\item Identifizierend: nein
+		\end{itemize}
+	\item Geburstag
+		\begin{itemize}
+		\item Typ: date
+		\item Anzahl Wiederholungen: beliebig
+		\item Definiertheit: 100\%
+		\item Identifizierend: nein
+		\end{itemize}
+	\item Beruf
+		\begin{itemize}
+		\item Typ: character
+		\item Länge: 200
+		\item Anzahl Wiederholungen: beliebig
+		\item Definiertheit: 80\%
+		\item Identifizierend: nein
+		\end{itemize}
 	\end{itemize}
 \end{itemize}
 
 \paragraph{Landesliste}
 \begin{itemize}
-\item Anzahl: 200
+\item Anzahl: ca. 300
+\end{itemize}
+
+\paragraph{Listenposition}
+\begin{itemize}
+\item Anzahl: ca. 3000
 \item Attribute
 	\begin{itemize}
-	\item 
+	\item Position
+		\begin{itemize}
+		\item Typ: integer
+		\item Anzahl Wiederholungen: beliebig
+		\item Definiertheit: 100\%
+		\item Identifizierend: nein
+		\end{itemize}
 	\end{itemize}
 \end{itemize}
 
+Das Ergebnis der Bundestagswahl entscheidet über die Parlamentarier im Bundestag:
 
+\paragraph{Bundestagsabgeordneter}
+\begin{itemize}
+\item Anzahl: 299 - 897
+\end{itemize}
 
 \section{Datenverarbeitungsanforderungen}
 
-\section{UML-Modell}
+Es folgen die Prozessbeschreibungen für das Wahlinformationssystem:
+
+\paragraph{Eintragen von Wahlergebnissen}
+\begin{itemize}
+\item Häufigkeit: Nach 18 Uhr am Wahltag minütlich
+\item Priorität: hoch
+\item zu verarbeitende Datenmenge
+\begin{itemize}
+	\item mehrere Tausend Stimmzettel mit Erst- und Zweitstimmen
+\end{itemize}
+\end{itemize}
+
+\paragraph{Berechnung der Sitzverteilung im Bundestag}
+\begin{itemize}
+\item Häufigkeit: Nach 18 Uhr am Wahltag alle 15 Minuten
+\item Priorität: mittel
+\item zu verarbeitende Datenmenge
+\begin{itemize}
+	\item alle bisher eingetragenen Zweitstimmen
+\end{itemize}
+\end{itemize}
+
+\paragraph{Berechnung von Wahlkreisgewinnern}
+\begin{itemize}
+\item Häufigkeit: Nach 18 Uhr am Wahltag alle 15 Minuten
+\item Priorität: niedrig
+\item zu verarbeitende Datenmenge
+\begin{itemize}
+	\item alle bisher eingetragenen Erststimmen
+\end{itemize}
+\end{itemize}
 
 \section{Integritätsbedingungen}
 
@@ -213,13 +269,14 @@ Die Integritätsbedingungen für das Wahlinformationssystem ergeben sich aus dem
 
 \paragraph{Stimmabgabe:} Jeder Wahlberechtigte darf genau einmal eine Erst- und eine Zweitstimme abgeben. Jeder Wahlberechtigte ist einem Wahlbezirk zugeordnet und darf nur einen der Wahlkreiskandidaten mit der Erststimme wählen. Mit der Zweitstimme kann nur eine Landesliste einer Partei gewählt werden, die in dem Bundesland antritt, in dem der Wahlberechtigte seine Stimme abgibt. Es ist möglich, dass nur eine Erst- oder nur eine Zweitstimme abgegeben wird.
 
-\paragraph{Landeslisten:} Eine Partei hat maximal 16 und pro Bundesland maximal eine Landesliste. Ein Listenplatz einer Partei in einem Bundesland ist nur einmal besetzt. Listenplätze sind positiv anzugeben. Ein Kandidat kann nur einen Listenplatz belegen und nur auf einer Landesliste stehen.
+\paragraph{Landeslisten:} Eine Partei hat maximal 16 und pro Bundesland maximal eine Landesliste. Ein Listenplatz einer Partei in einem Bundesland ist nur einmal besetzt. Listenplätze sind positiv anzugeben. Ein Kandidat kann nur einen Listenplatz belegen und nur auf einer Landesliste stehen. Landeslisten können nur von Parteien eingereicht werden und müssen daher einer Partei zuordbar sein. Parteien müssen nicht unbedingt Landeslisten haben.
 
-\paragraph{Wahlkreiskandidaten:} In jedem der 299 Wahlkreise wird genau ein Abgeordneter gewählt. Gewählt ist der Kandidat, der die meisten Stimmen auf sich vereinigt. Bei Stimmgleichheit entscheidet das Los. Das DBMS muss sicherstellen, dass es nur einen Gewinner in einem Wahlkreis gibt. Wahlkreiskandidaten können parteilos sein oder genau einer Partei angehören. Falls ein parteiloser Kandidat einen Wahlkreis gewinnt, werden die Zweitstimmen, die zusammen mit Erststimmen für diesen Kandidaten abgegeben wurden, aus Gerechtigkeitsgründen ungültig. Pro Wahlkreis hat eine Partei höchstens einen Direktkandidaten.
+\paragraph{Wahlkreiskandidaten:} In jedem der 299 Wahlkreise wird genau ein Abgeordneter gewählt. Gewählt ist der Kandidat, der die meisten Stimmen auf sich vereinigt. Bei Stimmgleichheit entscheidet das Los. Das DBMS muss sicherstellen, dass es nur einen Gewinner in einem Wahlkreis gibt. Wahlkreiskandidaten können parteilos sein oder genau einer Partei angehören. Falls ein parteiloser Kandidat einen Wahlkreis gewinnt, werden die Zweitstimmen, die zusammen mit Erststimmen für diesen Kandidaten abgegeben wurden, aus Gerechtigkeitsgründen ungültig. Pro Wahlkreis hat eine Partei höchstens einen Direktkandidaten. Als Bewerber einer Partei kann in einem Wahlkreis nur benannt werden, wer nicht Mitglied in einer anderen Partei ist.
 
 \section{Datenschutzanforderungen}
 
-Wahlberechtigter - Stimmzettel (Flags statt Referenzen)
-Wegen Deduktionsregeln: Keine Sicht auf Stimmzettelebene, außer für Bundeswahlleiter (Sichten)
-
+\paragraph{Wahlgeheimnis:} Es darf keine Verbindung zwischen Wahlberechtigtem und Stimmzettel gespeichert werden, denn nach dem Grundgesetz sind Wahlen unter anderem auch geheim. Stattdessen gibt es spezielle Checkliste um zu vermerken, wer schon gewählt hat.
+\paragraph{Sichten:} Nur der Wahlleiter bekommt Zugriff auf Stimmzettelebene, ansonsten ist maximal eine Sicht auf Wahlkreisebene möglich.
+\paragraph{Beeinflussung:} Es sind keine Informationen vor Wahlende abrufbar.
+\paragraph{Rahmenbedingungen:} Die Zahl der Wahlberechtigten eines Wahlbezirks ist nicht so gering, dass erkennbar wird, wie einzelne Wahlberechtigte gewählt haben.
 \end{document}
