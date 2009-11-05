@@ -1,6 +1,92 @@
 Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
-1;Flensburg - Schleswig;225.216;Schleswig-Holstein
-;;;
+Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
+1;"Flensburg - Schleswig";225216;"Schleswig-Holstein"
+2;"Nordfriesland - Dithmarschen Nord";187047;"Schleswig-Holstein"
+3;"Steinburg - Dithmarschen Süd";177604;"Schleswig-Holstein"
+4;"Rendsburg-Eckernförde";198910;"Schleswig-Holstein"
+5;"Kiel";200347;"Schleswig-Holstein"
+6;"Plön - Neumünster";175132;"Schleswig-Holstein"
+7;"Pinneberg";232899;"Schleswig-Holstein"
+8;"Segeberg - Stormarn-Nord";240010;"Schleswig-Holstein"
+9;"Ostholstein";179987;"Schleswig-Holstein"
+10;"Herzogtum Lauenburg - Stormarn-Süd";237144;"Schleswig-Holstein"
+11;"Lübeck";180424;"Schleswig-Holstein"
+12;"Wismar - Nordwestmecklenburg - Parchim";216789;"Mecklenburg-Vorpommern"
+13;"Schwerin - Ludwigslust";183166;"Mecklenburg-Vorpommern"
+14;"Rostock";198527;"Mecklenburg-Vorpommern"
+15;"Stralsund - Nordvorpommern - Rügen";199517;"Mecklenburg-Vorpommern"
+16;"Greifswald - Demmin - Ostvorpommern";204944;"Mecklenburg-Vorpommern"
+17;"Bad Doberan - Güstrow - Müritz";211429;"Mecklenburg-Vorpommern"
+18;"Neubrandenburg - Mecklenburg-Strelitz - Uecker-Randow";185926;"Mecklenburg-Vorpommern"
+19;"Hamburg-Mitte";252967;"Hamburg"
+20;"Hamburg-Altona";173956;"Hamburg"
+21;"Hamburg-Eimsbüttel";186357;"Hamburg"
+22;"Hamburg-Nord";207016;"Hamburg"
+23;"Hamburg-Wandsbek";217147;"Hamburg"
+24;"Hamburg-Bergedorf - Harburg";219191;"Hamburg"
+25;"Aurich - Emden";189804;"Niedersachsen"
+26;"Unterems";231076;"Niedersachsen"
+27;"Friesland - Wilhelmshaven";190546;"Niedersachsen"
+28;"Oldenburg - Ammerland";215591;"Niedersachsen"
+29;"Delmenhorst - Wesermarsch - Oldenburg-Land";226440;"Niedersachsen"
+30;"Cuxhaven - Stade II";189058;"Niedersachsen"
+31;"Stade I - Rotenburg II";192956;"Niedersachsen"
+32;"Mittelems";226979;"Niedersachsen"
+33;"Cloppenburg - Vechta";212449;"Niedersachsen"
+34;"Diepholz - Nienburg I";193411;"Niedersachsen"
+35;"Osterholz - Verden";192320;"Niedersachsen"
+36;"Rotenburg I - Soltau-Fallingbostel";168573;"Niedersachsen"
+37;"Harburg";191159;"Niedersachsen"
+38;"Lüchow-Dannenberg - Lüneburg";177098;"Niedersachsen"
+39;"Osnabrück-Land";197143;"Niedersachsen"
+40;"Stadt Osnabrück";192473;"Niedersachsen"
+41;"Nienburg II - Schaumburg";198376;"Niedersachsen"
+42;"Stadt Hannover I";180088;"Niedersachsen"
+43;"Stadt Hannover II";190623;"Niedersachsen"
+44;"Hannover-Land I";232214;"Niedersachsen"
+45;"Celle - Uelzen";217316;"Niedersachsen"
+46;"Gifhorn - Peine";216957;"Niedersachsen"
+47;"Hameln-Pyrmont - Holzminden";197394;"Niedersachsen"
+48;"Hannover-Land II";239450;"Niedersachsen"
+49;"Hildesheim";222804;"Niedersachsen"
+50;"Salzgitter - Wolfenbüttel";213208;"Niedersachsen"
+51;"Braunschweig";189975;"Niedersachsen"
+52;"Helmstedt - Wolfsburg";187831;"Niedersachsen"
+53;"Goslar - Northeim - Osterode";214330;"Niedersachsen"
+54;"Göttingen";224468;"Niedersachsen"
+55;"Bremen I";256131;"Bremen"
+56;"Bremen II - Bremerhaven";231847;"Bremen"
+57;"Prignitz - Ostprignitz-Ruppin - Havelland I";171705;"Brandenburg"
+58;"Uckermark - Barnim I";169284;"Brandenburg"
+59;"Oberhavel - Havelland II";249983;"Brandenburg"
+60;"Märkisch-Oderland - Barnim II";255165;"Brandenburg"
+61;"Brandenburg an der Havel - Potsdam-Mittelmark I - Havelland III - Teltow-Fläming I";199083;"Brandenburg"
+62;"Potsdam - Potsdam-Mittelmark II - Teltow-Fläming II";239221;"Brandenburg"
+63;"Dahme-Spreewald - Teltow-Fläming III - Oberspreewald-Lausitz I";246651;"Brandenburg"
+64;"Frankfurt (Oder) - Oder-Spree";208525;"Brandenburg"
+65;"Cottbus - Spree-Neiße";196389;"Brandenburg"
+66;"Elbe-Elster - Oberspreewald-Lausitz II";192709;"Brandenburg"
+67;"Altmark";182677;"Sachsen-Anhalt"
+68;"Börde - Jerichower Land";239481;"Sachsen-Anhalt"
+69;"Harz";236946;"Sachsen-Anhalt"
+70;"Magdeburg";254287;"Sachsen-Anhalt"
+71;"Dessau - Wittenberg";197289;"Sachsen-Anhalt"
+72;"Anhalt";248457;"Sachsen-Anhalt"
+73;"Halle";223268;"Sachsen-Anhalt"
+74;"Burgenland - Saalekreis";214081;"Sachsen-Anhalt"
+75;"Mansfeld";232086;"Sachsen-Anhalt"
+76;"Berlin-Mitte";197252;"Berlin"
+77;"Berlin-Pankow";232250;"Berlin"
+78;"Berlin-Reinickendorf";183112;"Berlin"
+79;"Berlin-Spandau - Charlottenburg Nord";184436;"Berlin"
+80;"Berlin-Steglitz - Zehlendorf";217335;"Berlin"
+81;"Berlin-Charlottenburg - Wilmersdorf";195857;"Berlin"
+82;"Berlin-Tempelhof - Schöneberg";232759;"Berlin"
+83;"Berlin-Neukölln";197444;"Berlin"
+84;"Berlin-Friedrichshain - Kreuzberg - Prenzlauer Berg Ost";222647;"Berlin"
+85;"Berlin-Treptow - Köpenick";200391;"Berlin"
+86;"Berlin-Marzahn - Hellersdorf";203416;"Berlin"
+87;"Berlin-Lichtenberg";204766;"Berlin"
 88;Aachen;;Nordrhein-Westfalen
 89;Kreis Aachen;;Nordrhein-Westfalen
 90;Heinsberg;;Nordrhein-Westfalen
@@ -171,45 +257,45 @@ Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
 255;Neu-Ulm;;Bayern
 256;Oberallgäu;;Bayern
 257;Ostallgäu;;Bayern
-258;Stuttgart I;184.454;Baden-Württemberg
-259;Stuttgart II;181.088;Baden-Württemberg
-260;Böblingen;244.919;Baden-Württemberg
-261;Esslingen;165.210;Baden-Württemberg
-262;Nürtingen;204.091;Baden-Württemberg
-263;Göppingen;180.442;Baden-Württemberg
-264;Waiblingen;220.220;Baden-Württemberg
-265;Ludwigsburg;206.805;Baden-Württemberg
-266;Neckar-Zaber;224.090;Baden-Württemberg
-267;Heilbronn;241.035;Baden-Württemberg
-268;Schwäbisch Hall - Hohenlohe;223.234;Baden-Württemberg
-269;Backnang - Schwäbisch Gmünd;176.381;Baden-Württemberg
-270;Aalen - Heidenheim;224.418;Baden-Württemberg
-271;Karlsruhe-Stadt;201.833;Baden-Württemberg
-272;Karlsruhe-Land;208.654;Baden-Württemberg
-273;Rastatt;208.664;Baden-Württemberg
-274;Heidelberg;211.807;Baden-Württemberg
-275;Mannheim;198.437;Baden-Württemberg
-276;Odenwald - Tauber;215.910;Baden-Württemberg
-277;Rhein-Neckar;195.971;Baden-Württemberg
-278;Bruchsal - Schwetzingen;194.304;Baden-Württemberg
-279;Pforzheim;220.877;Baden-Württemberg
-280;Calw;198.923;Baden-Württemberg
-281;Freiburg;210.636;Baden-Württemberg
-282;Lörrach - Müllheim;225.703;Baden-Württemberg
-283;Emmendingen - Lahr;213.013;Baden-Württemberg
-284;Offenburg;204.619;Baden-Württemberg
-285;Rottweil - Tuttlingen;200.726;Baden-Württemberg
-286;Schwarzwald-Baar;167.458;Baden-Württemberg
-287;Konstanz;197.671;Baden-Württemberg
-288;Waldshut;177.784;Baden-Württemberg
-289;Reutlingen;198.466;Baden-Württemberg
-290;Tübingen;189.559;Baden-Württemberg
-291;Ulm;218.867;Baden-Württemberg
-292;Biberach;162.508;Baden-Württemberg
-293;Bodensee;167.789;Baden-Württemberg
-294;Ravensburg;181.362;Baden-Württemberg
-295;Zollernalb - Sigmaringen;185.890;Baden-Württemberg
-296;Saarbrücken;207.292;Saarland
-297;Saarlouis;214.924;Saarland
-298;St. Wendel;184.896;Saarland
-299;Homburg;201.442;Saarland
+258;Stuttgart I;184454;Baden-Württemberg
+259;Stuttgart II;181088;Baden-Württemberg
+260;Böblingen;244919;Baden-Württemberg
+261;Esslingen;165210;Baden-Württemberg
+262;Nürtingen;204091;Baden-Württemberg
+263;Göppingen;180442;Baden-Württemberg
+264;Waiblingen;220220;Baden-Württemberg
+265;Ludwigsburg;206805;Baden-Württemberg
+266;Neckar-Zaber;224090;Baden-Württemberg
+267;Heilbronn;241035;Baden-Württemberg
+268;Schwäbisch Hall - Hohenlohe;223234;Baden-Württemberg
+269;Backnang - Schwäbisch Gmünd;176381;Baden-Württemberg
+270;Aalen - Heidenheim;224418;Baden-Württemberg
+271;Karlsruhe-Stadt;201833;Baden-Württemberg
+272;Karlsruhe-Land;208654;Baden-Württemberg
+273;Rastatt;208664;Baden-Württemberg
+274;Heidelberg;211807;Baden-Württemberg
+275;Mannheim;198437;Baden-Württemberg
+276;Odenwald - Tauber;215910;Baden-Württemberg
+277;Rhein-Neckar;195971;Baden-Württemberg
+278;Bruchsal - Schwetzingen;194304;Baden-Württemberg
+279;Pforzheim;220877;Baden-Württemberg
+280;Calw;198923;Baden-Württemberg
+281;Freiburg;210636;Baden-Württemberg
+282;Lörrach - Müllheim;225703;Baden-Württemberg
+283;Emmendingen - Lahr;213013;Baden-Württemberg
+284;Offenburg;204619;Baden-Württemberg
+285;Rottweil - Tuttlingen;200726;Baden-Württemberg
+286;Schwarzwald-Baar;167458;Baden-Württemberg
+287;Konstanz;197671;Baden-Württemberg
+288;Waldshut;177784;Baden-Württemberg
+289;Reutlingen;198466;Baden-Württemberg
+290;Tübingen;189559;Baden-Württemberg
+291;Ulm;218867;Baden-Württemberg
+292;Biberach;162508;Baden-Württemberg
+293;Bodensee;167789;Baden-Württemberg
+294;Ravensburg;181362;Baden-Württemberg
+295;Zollernalb - Sigmaringen;185890;Baden-Württemberg
+296;Saarbrücken;207292;Saarland
+297;Saarlouis;214924;Saarland
+298;St. Wendel;184896;Saarland
+299;Homburg;201442;Saarland
