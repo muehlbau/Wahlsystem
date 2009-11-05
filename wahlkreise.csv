@@ -1,97 +1,97 @@
 Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
-1;Flensburg - Schleswig;225216;Schleswig-Holstein
-2;Nordfriesland - Dithmarschen Nord;187047;Schleswig-Holstein
-3;Steinburg - Dithmarschen Süd;177604;Schleswig-Holstein
+1;Flensburg – Schleswig;225216;Schleswig-Holstein
+2;Nordfriesland – Dithmarschen Nord;187047;Schleswig-Holstein
+3;Steinburg – Dithmarschen Süd;177604;Schleswig-Holstein
 4;Rendsburg-Eckernförde;198910;Schleswig-Holstein
 5;Kiel;200347;Schleswig-Holstein
-6;Plön - Neumünster;175132;Schleswig-Holstein
+6;Plön – Neumünster;175132;Schleswig-Holstein
 7;Pinneberg;232899;Schleswig-Holstein
-8;Segeberg - Stormarn-Nord;240010;Schleswig-Holstein
+8;Segeberg – Stormarn-Nord;240010;Schleswig-Holstein
 9;Ostholstein;179987;Schleswig-Holstein
-10;Herzogtum Lauenburg - Stormarn-Süd;237144;Schleswig-Holstein
+10;Herzogtum Lauenburg – Stormarn-Süd;237144;Schleswig-Holstein
 11;Lübeck;180424;Schleswig-Holstein
-12;Wismar - Nordwestmecklenburg - Parchim;216789;Mecklenburg-Vorpommern
-13;Schwerin - Ludwigslust;183166;Mecklenburg-Vorpommern
+12;Wismar – Nordwestmecklenburg – Parchim;216789;Mecklenburg-Vorpommern
+13;Schwerin – Ludwigslust;183166;Mecklenburg-Vorpommern
 14;Rostock;198527;Mecklenburg-Vorpommern
-15;Stralsund - Nordvorpommern - Rügen;199517;Mecklenburg-Vorpommern
-16;Greifswald - Demmin - Ostvorpommern;204944;Mecklenburg-Vorpommern
-17;Bad Doberan - Güstrow - Müritz;211429;Mecklenburg-Vorpommern
-18;Neubrandenburg - Mecklenburg-Strelitz - Uecker-Randow;185926;Mecklenburg-Vorpommern
+15;Stralsund – Nordvorpommern – Rügen;199517;Mecklenburg-Vorpommern
+16;Greifswald – Demmin – Ostvorpommern;204944;Mecklenburg-Vorpommern
+17;Bad Doberan – Güstrow – Müritz;211429;Mecklenburg-Vorpommern
+18;Neubrandenburg – Mecklenburg-Strelitz – Uecker-Randow;185926;Mecklenburg-Vorpommern
 19;Hamburg-Mitte;252967;Hamburg
 20;Hamburg-Altona;173956;Hamburg
 21;Hamburg-Eimsbüttel;186357;Hamburg
 22;Hamburg-Nord;207016;Hamburg
 23;Hamburg-Wandsbek;217147;Hamburg
-24;Hamburg-Bergedorf - Harburg;219191;Hamburg
-25;Aurich - Emden;189804;Niedersachsen
+24;Hamburg-Bergedorf – Harburg;219191;Hamburg
+25;Aurich – Emden;189804;Niedersachsen
 26;Unterems;231076;Niedersachsen
-27;Friesland - Wilhelmshaven;190546;Niedersachsen
-28;Oldenburg - Ammerland;215591;Niedersachsen
-29;Delmenhorst - Wesermarsch - Oldenburg-Land;226440;Niedersachsen
-30;Cuxhaven - Stade II;189058;Niedersachsen
-31;Stade I - Rotenburg II;192956;Niedersachsen
+27;Friesland – Wilhelmshaven;190546;Niedersachsen
+28;Oldenburg – Ammerland;215591;Niedersachsen
+29;Delmenhorst – Wesermarsch – Oldenburg-Land;226440;Niedersachsen
+30;Cuxhaven – Stade II;189058;Niedersachsen
+31;Stade I – Rotenburg II;192956;Niedersachsen
 32;Mittelems;226979;Niedersachsen
-33;Cloppenburg - Vechta;212449;Niedersachsen
-34;Diepholz - Nienburg I;193411;Niedersachsen
-35;Osterholz - Verden;192320;Niedersachsen
-36;Rotenburg I - Soltau-Fallingbostel;168573;Niedersachsen
+33;Cloppenburg – Vechta;212449;Niedersachsen
+34;Diepholz – Nienburg I;193411;Niedersachsen
+35;Osterholz – Verden;192320;Niedersachsen
+36;Rotenburg I – Soltau-Fallingbostel;168573;Niedersachsen
 37;Harburg;191159;Niedersachsen
-38;Lüchow-Dannenberg - Lüneburg;177098;Niedersachsen
+38;Lüchow-Dannenberg – Lüneburg;177098;Niedersachsen
 39;Osnabrück-Land;197143;Niedersachsen
 40;Stadt Osnabrück;192473;Niedersachsen
-41;Nienburg II - Schaumburg;198376;Niedersachsen
+41;Nienburg II – Schaumburg;198376;Niedersachsen
 42;Stadt Hannover I;180088;Niedersachsen
 43;Stadt Hannover II;190623;Niedersachsen
 44;Hannover-Land I;232214;Niedersachsen
-45;Celle - Uelzen;217316;Niedersachsen
-46;Gifhorn - Peine;216957;Niedersachsen
-47;Hameln-Pyrmont - Holzminden;197394;Niedersachsen
+45;Celle – Uelzen;217316;Niedersachsen
+46;Gifhorn – Peine;216957;Niedersachsen
+47;Hameln-Pyrmont – Holzminden;197394;Niedersachsen
 48;Hannover-Land II;239450;Niedersachsen
 49;Hildesheim;222804;Niedersachsen
-50;Salzgitter - Wolfenbüttel;213208;Niedersachsen
+50;Salzgitter – Wolfenbüttel;213208;Niedersachsen
 51;Braunschweig;189975;Niedersachsen
-52;Helmstedt - Wolfsburg;187831;Niedersachsen
-53;Goslar - Northeim - Osterode;214330;Niedersachsen
+52;Helmstedt – Wolfsburg;187831;Niedersachsen
+53;Goslar – Northeim – Osterode;214330;Niedersachsen
 54;Göttingen;224468;Niedersachsen
 55;Bremen I;256131;Bremen
-56;Bremen II - Bremerhaven;231847;Bremen
-57;Prignitz - Ostprignitz-Ruppin - Havelland I;171705;Brandenburg
-58;Uckermark - Barnim I;169284;Brandenburg
-59;Oberhavel - Havelland II;249983;Brandenburg
-60;Märkisch-Oderland - Barnim II;255165;Brandenburg
-61;Brandenburg an der Havel - Potsdam-Mittelmark I - Havelland III - Teltow-Fläming I;199083;Brandenburg
-62;Potsdam - Potsdam-Mittelmark II - Teltow-Fläming II;239221;Brandenburg
-63;Dahme-Spreewald - Teltow-Fläming III - Oberspreewald-Lausitz I;246651;Brandenburg
-64;Frankfurt (Oder) - Oder-Spree;208525;Brandenburg
-65;Cottbus - Spree-Neiße;196389;Brandenburg
-66;Elbe-Elster - Oberspreewald-Lausitz II;192709;Brandenburg
+56;Bremen II – Bremerhaven;231847;Bremen
+57;Prignitz – Ostprignitz-Ruppin – Havelland I;171705;Brandenburg
+58;Uckermark – Barnim I;169284;Brandenburg
+59;Oberhavel – Havelland II;249983;Brandenburg
+60;Märkisch-Oderland – Barnim II;255165;Brandenburg
+61;Brandenburg an der Havel – Potsdam-Mittelmark I – Havelland III – Teltow-Fläming I;199083;Brandenburg
+62;Potsdam – Potsdam-Mittelmark II – Teltow-Fläming II;239221;Brandenburg
+63;Dahme-Spreewald – Teltow-Fläming III – Oberspreewald-Lausitz I;246651;Brandenburg
+64;Frankfurt (Oder) – Oder-Spree;208525;Brandenburg
+65;Cottbus – Spree-Neiße;196389;Brandenburg
+66;Elbe-Elster – Oberspreewald-Lausitz II;192709;Brandenburg
 67;Altmark;182677;Sachsen-Anhalt
-68;Börde - Jerichower Land;239481;Sachsen-Anhalt
+68;Börde – Jerichower Land;239481;Sachsen-Anhalt
 69;Harz;236946;Sachsen-Anhalt
 70;Magdeburg;254287;Sachsen-Anhalt
-71;Dessau - Wittenberg;197289;Sachsen-Anhalt
+71;Dessau – Wittenberg;197289;Sachsen-Anhalt
 72;Anhalt;248457;Sachsen-Anhalt
 73;Halle;223268;Sachsen-Anhalt
-74;Burgenland - Saalekreis;214081;Sachsen-Anhalt
+74;Burgenland – Saalekreis;214081;Sachsen-Anhalt
 75;Mansfeld;232086;Sachsen-Anhalt
 76;Berlin-Mitte;197252;Berlin
 77;Berlin-Pankow;232250;Berlin
 78;Berlin-Reinickendorf;183112;Berlin
-79;Berlin-Spandau - Charlottenburg Nord;184436;Berlin
-80;Berlin-Steglitz - Zehlendorf;217335;Berlin
-81;Berlin-Charlottenburg - Wilmersdorf;195857;Berlin
-82;Berlin-Tempelhof - Schöneberg;232759;Berlin
+79;Berlin-Spandau – Charlottenburg Nord;184436;Berlin
+80;Berlin-Steglitz – Zehlendorf;217335;Berlin
+81;Berlin-Charlottenburg – Wilmersdorf;195857;Berlin
+82;Berlin-Tempelhof – Schöneberg;232759;Berlin
 83;Berlin-Neukölln;197444;Berlin
-84;Berlin-Friedrichshain - Kreuzberg - Prenzlauer Berg Ost;222647;Berlin
-85;Berlin-Treptow - Köpenick;200391;Berlin
-86;Berlin-Marzahn - Hellersdorf;203416;Berlin
+84;Berlin-Friedrichshain – Kreuzberg – Prenzlauer Berg Ost;222647;Berlin
+85;Berlin-Treptow – Köpenick;200391;Berlin
+86;Berlin-Marzahn – Hellersdorf;203416;Berlin
 87;Berlin-Lichtenberg;204766;Berlin
 88;Aachen;176885;Nordrhein-Westfalen
 89;Kreis Aachen;228546;Nordrhein-Westfalen
 90;Heinsberg;187605;Nordrhein-Westfalen
 91;Düren;199907;Nordrhein-Westfalen
 92;Erftkreis I;245417;Nordrhein-Westfalen
-93;Euskirchen - Erftkreis II;245382;Nordrhein-Westfalen
+93;Euskirchen – Erftkreis II;245382;Nordrhein-Westfalen
 94;Köln I;186798;Nordrhein-Westfalen
 95;Köln II;224430;Nordrhein-Westfalen
 96;Köln III;197023;Nordrhein-Westfalen
@@ -100,55 +100,55 @@ Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
 99;Rhein-Sieg-Kreis II;211859;Nordrhein-Westfalen
 100;Oberbergischer Kreis;211963;Nordrhein-Westfalen
 101;Rheinisch-Bergischer Kreis;215582;Nordrhein-Westfalen
-102;Leverkusen - Köln IV;213303;Nordrhein-Westfalen
+102;Leverkusen – Köln IV;213303;Nordrhein-Westfalen
 103;Wuppertal I;216614;Nordrhein-Westfalen
-104;Solingen - Remscheid - Wuppertal II;229927;Nordrhein-Westfalen
+104;Solingen – Remscheid – Wuppertal II;229927;Nordrhein-Westfalen
 105;Mettmann I;204450;Nordrhein-Westfalen
 106;Mettmann II;168402;Nordrhein-Westfalen
 107;Düsseldorf I;218215;Nordrhein-Westfalen
 108;Düsseldorf II;195910;Nordrhein-Westfalen
 109;Neuss I;213950;Nordrhein-Westfalen
 110;Mönchengladbach;194294;Nordrhein-Westfalen
-111;Krefeld I - Neuss II;204291;Nordrhein-Westfalen
+111;Krefeld I – Neuss II;204291;Nordrhein-Westfalen
 112;Viersen;227805;Nordrhein-Westfalen
 113;Kleve;226029;Nordrhein-Westfalen
 114;Wesel I;207451;Nordrhein-Westfalen
-115;Krefeld II - Wesel II;182878;Nordrhein-Westfalen
+115;Krefeld II – Wesel II;182878;Nordrhein-Westfalen
 116;Duisburg I;185802;Nordrhein-Westfalen
 117;Duisburg II;159541;Nordrhein-Westfalen
-118;Oberhausen - Wesel III;212283;Nordrhein-Westfalen
-119;Mülheim - Essen I;194638;Nordrhein-Westfalen
+118;Oberhausen – Wesel III;212283;Nordrhein-Westfalen
+119;Mülheim – Essen I;194638;Nordrhein-Westfalen
 120;Essen II;171457;Nordrhein-Westfalen
 121;Essen III;197729;Nordrhein-Westfalen
 122;Recklinghausen I;174767;Nordrhein-Westfalen
 123;Recklinghausen II;194999;Nordrhein-Westfalen
 124;Gelsenkirchen;187486;Nordrhein-Westfalen
-125;Steinfurt I - Borken I;200304;Nordrhein-Westfalen
-126;Bottrop - Recklinghausen III;208655;Nordrhein-Westfalen
+125;Steinfurt I – Borken I;200304;Nordrhein-Westfalen
+126;Bottrop – Recklinghausen III;208655;Nordrhein-Westfalen
 127;Borken II;196659;Nordrhein-Westfalen
-128;Coesfeld - Steinfurt II;189353;Nordrhein-Westfalen
+128;Coesfeld – Steinfurt II;189353;Nordrhein-Westfalen
 129;Steinfurt III;192966;Nordrhein-Westfalen
 130;Münster;210934;Nordrhein-Westfalen
 131;Warendorf;211287;Nordrhein-Westfalen
 132;Gütersloh;232944;Nordrhein-Westfalen
 133;Bielefeld;247085;Nordrhein-Westfalen
-134;Herford - Minden-Lübbecke II;233781;Nordrhein-Westfalen
+134;Herford – Minden-Lübbecke II;233781;Nordrhein-Westfalen
 135;Minden-Lübbecke I;209155;Nordrhein-Westfalen
 136;Lippe I;174517;Nordrhein-Westfalen
-137;Höxter - Lippe II;216917;Nordrhein-Westfalen
+137;Höxter – Lippe II;216917;Nordrhein-Westfalen
 138;Paderborn;243442;Nordrhein-Westfalen
-139;Hagen - Ennepe-Ruhr-Kreis I;217768;Nordrhein-Westfalen
+139;Hagen – Ennepe-Ruhr-Kreis I;217768;Nordrhein-Westfalen
 140;Ennepe-Ruhr-Kreis II;183435;Nordrhein-Westfalen
 141;Bochum I;214358;Nordrhein-Westfalen
-142;Herne - Bochum II;188777;Nordrhein-Westfalen
+142;Herne – Bochum II;188777;Nordrhein-Westfalen
 143;Dortmund I;214213;Nordrhein-Westfalen
 144;Dortmund II;208840;Nordrhein-Westfalen
 145;Unna I;202933;Nordrhein-Westfalen
-146;Hamm - Unna II;239907;Nordrhein-Westfalen
+146;Hamm – Unna II;239907;Nordrhein-Westfalen
 147;Soest;232781;Nordrhein-Westfalen
 148;Hochsauerlandkreis;209440;Nordrhein-Westfalen
 149;Siegen-Wittgenstein;218411;Nordrhein-Westfalen
-150;Olpe - Märkischer Kreis I;214196;Nordrhein-Westfalen
+150;Olpe – Märkischer Kreis I;214196;Nordrhein-Westfalen
 151;Märkischer Kreis II;210993;Nordrhein-Westfalen
 152;Nordsachsen;178447;Sachsen
 153;Leipzig I;202455;Sachsen
@@ -157,18 +157,18 @@ Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
 156;Meißen;216629;Sachsen
 157;Bautzen I;237786;Sachsen
 158;Görlitz;238958;Sachsen
-159;Sächsische Schweiz - Osterzgebirge;215674;Sachsen
+159;Sächsische Schweiz – Osterzgebirge;215674;Sachsen
 160;Dresden I;230676;Sachsen
-161;Dresden II - Bautzen II;231247;Sachsen
+161;Dresden II – Bautzen II;231247;Sachsen
 162;Mittelsachsen;223149;Sachsen
 163;Chemnitz;205652;Sachsen
-164;Chemnitzer Umland - Erzgebirgskreis II;202743;Sachsen
+164;Chemnitzer Umland – Erzgebirgskreis II;202743;Sachsen
 165;Erzgebirgskreis I;247624;Sachsen
 166;Zwickau;229535;Sachsen
 167;Vogtlandkreis;213732;Sachsen
 168;Waldeck;192360;Hessen
 169;Kassel;222636;Hessen
-170;Werra-Meißner - Hersfeld-Rotenburg;184337;Hessen
+170;Werra-Meißner – Hersfeld-Rotenburg;184337;Hessen
 171;Schwalm-Eder;194732;Hessen
 172;Marburg;185071;Hessen
 173;Lahn-Dill;212611;Hessen
@@ -176,7 +176,7 @@ Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
 175;Fulda;239786;Hessen
 176;Hochtaunus;182246;Hessen
 177;Wetterau;246697;Hessen
-178;Rheingau-Taunus - Limburg;221226;Hessen
+178;Rheingau-Taunus – Limburg;221226;Hessen
 179;Wiesbaden;187479;Hessen
 180;Hanau;241923;Hessen
 181;Main-Taunus;195505;Hessen
@@ -187,15 +187,15 @@ Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
 186;Darmstadt;233622;Hessen
 187;Odenwald;234911;Hessen
 188;Bergstraße;199708;Hessen
-189;Eichsfeld - Nordhausen - Unstrut-Hainich-Kreis I;204717;Thüringen
-190;Eisenach - Wartburgkreis - Unstrut-Hainich-Kreis II;201700;Thüringen
-191;Kyffhäuserkreis - Sömmerda - Weimarer Land I;200901;Thüringen
-192;Gotha - Ilm-Kreis;214510;Thüringen
-193;Erfurt - Weimar - Weimarer Land II;225708;Thüringen
-194;Gera - Jena - Saale-Holzland-Kreis;245228;Thüringen
-195;Greiz - Altenburger Land;182336;Thüringen
-196;Sonneberg - Saalfeld-Rudolstadt - Saale-Orla-Kreis;231447;Thüringen
-197;Suhl - Schmalkalden-Meiningen - Hildburghausen;207012;Thüringen
+189;Eichsfeld – Nordhausen – Unstrut-Hainich-Kreis I;204717;Thüringen
+190;Eisenach – Wartburgkreis – Unstrut-Hainich-Kreis II;201700;Thüringen
+191;Kyffhäuserkreis – Sömmerda – Weimarer Land I;200901;Thüringen
+192;Gotha – Ilm-Kreis;214510;Thüringen
+193;Erfurt – Weimar – Weimarer Land II;225708;Thüringen
+194;Gera – Jena – Saale-Holzland-Kreis;245228;Thüringen
+195;Greiz – Altenburger Land;182336;Thüringen
+196;Sonneberg – Saalfeld-Rudolstadt – Saale-Orla-Kreis;231447;Thüringen
+197;Suhl – Schmalkalden-Meiningen – Hildburghausen;207012;Thüringen
 198;Neuwied;242568;Rheinland-Pfalz
 199;Ahrweiler;195658;Rheinland-Pfalz
 200;Koblenz;196560;Rheinland-Pfalz
@@ -207,12 +207,12 @@ Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
 206;Mainz;251837;Rheinland-Pfalz
 207;Worms;202156;Rheinland-Pfalz
 208;Ludwigshafen/Frankenthal;217445;Rheinland-Pfalz
-209;Neustadt - Speyer;220974;Rheinland-Pfalz
+209;Neustadt – Speyer;220974;Rheinland-Pfalz
 210;Kaiserslautern;235030;Rheinland-Pfalz
 211;Pirmasens;184220;Rheinland-Pfalz
 212;Südpfalz;214215;Rheinland-Pfalz
 213;Altötting;166775;Bayern
-214;Erding - Ebersberg;185961;Bayern
+214;Erding – Ebersberg;185961;Bayern
 215;Freising;205531;Bayern
 216;Fürstenfeldbruck;249131;Bayern
 217;Ingolstadt;252615;Bayern
@@ -266,24 +266,24 @@ Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
 265;Ludwigsburg;206805;Baden-Württemberg
 266;Neckar-Zaber;224090;Baden-Württemberg
 267;Heilbronn;241035;Baden-Württemberg
-268;Schwäbisch Hall - Hohenlohe;223234;Baden-Württemberg
-269;Backnang - Schwäbisch Gmünd;176381;Baden-Württemberg
-270;Aalen - Heidenheim;224418;Baden-Württemberg
+268;Schwäbisch Hall – Hohenlohe;223234;Baden-Württemberg
+269;Backnang – Schwäbisch Gmünd;176381;Baden-Württemberg
+270;Aalen – Heidenheim;224418;Baden-Württemberg
 271;Karlsruhe-Stadt;201833;Baden-Württemberg
 272;Karlsruhe-Land;208654;Baden-Württemberg
 273;Rastatt;208664;Baden-Württemberg
 274;Heidelberg;211807;Baden-Württemberg
 275;Mannheim;198437;Baden-Württemberg
-276;Odenwald - Tauber;215910;Baden-Württemberg
+276;Odenwald – Tauber;215910;Baden-Württemberg
 277;Rhein-Neckar;195971;Baden-Württemberg
-278;Bruchsal - Schwetzingen;194304;Baden-Württemberg
+278;Bruchsal – Schwetzingen;194304;Baden-Württemberg
 279;Pforzheim;220877;Baden-Württemberg
 280;Calw;198923;Baden-Württemberg
 281;Freiburg;210636;Baden-Württemberg
-282;Lörrach - Müllheim;225703;Baden-Württemberg
-283;Emmendingen - Lahr;213013;Baden-Württemberg
+282;Lörrach – Müllheim;225703;Baden-Württemberg
+283;Emmendingen – Lahr;213013;Baden-Württemberg
 284;Offenburg;204619;Baden-Württemberg
-285;Rottweil - Tuttlingen;200726;Baden-Württemberg
+285;Rottweil – Tuttlingen;200726;Baden-Württemberg
 286;Schwarzwald-Baar;167458;Baden-Württemberg
 287;Konstanz;197671;Baden-Württemberg
 288;Waldshut;177784;Baden-Württemberg
@@ -293,7 +293,7 @@ Wahlkreisnummer;Name;Wahlberechtigte;Bundesland
 292;Biberach;162508;Baden-Württemberg
 293;Bodensee;167789;Baden-Württemberg
 294;Ravensburg;181362;Baden-Württemberg
-295;Zollernalb - Sigmaringen;185890;Baden-Württemberg
+295;Zollernalb – Sigmaringen;185890;Baden-Württemberg
 296;Saarbrücken;207292;Saarland
 297;Saarlouis;214924;Saarland
 298;St. Wendel;184896;Saarland
