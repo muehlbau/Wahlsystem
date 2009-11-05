@@ -1,13 +1,13 @@
 Kurzbezeichnung;Name;Mitglieder;Frauenanteil;Durchschnittsalter;Zuschüsse;Farbe
-"CDU";"Christlich Demokratische Union Deutschlands";528972;25,4;56,4;44790190,59;#000000
-"CSU";"Christlich-Soziale Union in Bayern";162533;18,8;;10781099,75;#0000FF
-"SPD";"Sozialdemokratische Partei Deutschlands";513381;31,2;58;42903568,04;#FF0000
-"FDP";"Freie Demokratische Partei";71441;22,8;51;9872067,82;#FFFF00
-"GRÜNE";"Bündnis 90/Die Grünen";47528;37,2;47;9910264,48;#00FF00
-"DIE LINKE";"Die Linke";75968;39,2;62,5;8814886,81;#800080
-"NPD";"Nationaldemokratische Partei Deutschlands";7000;27;37;1255481,64;#8B4513
-"MLPD";"Marxistisch-Leninistische Partei Deutschlands";2300;39;;;#800000
-"PIRATEN";"Piratenpartei Deutschland";11372;;31;;#FFA500
+"CDU";"Christlich Demokratische Union Deutschlands";528972;25,4;56,4;44790190,59;"#000000"
+"CSU";"Christlich-Soziale Union in Bayern";162533;18,8;;10781099,75;"#0000FF"
+"SPD";"Sozialdemokratische Partei Deutschlands";513381;31,2;58;42903568,04;"#FF0000"
+"FDP";"Freie Demokratische Partei";71441;22,8;51;9872067,82;"#FFFF00"
+"GRÜNE";"Bündnis 90/Die Grünen";47528;37,2;47;9910264,48;"#00FF00"
+"DIE LINKE";"Die Linke";75968;39,2;62,5;8814886,81;"#800080"
+"NPD";"Nationaldemokratische Partei Deutschlands";7000;27;37;1255481,64;"#8B4513"
+"MLPD";"Marxistisch-Leninistische Partei Deutschlands";2300;39;;;"#800000"
+"PIRATEN";"Piratenpartei Deutschland";11372;;31;;"#FFA500"
 "DVU";"Deutsche Volksunion";6000;;;174078,35;
 "REP";"Die Republikaner";6700;;;1394576,23;
 "ödp";"Ökologisch-Demokratische Partei";6449;40;39;589886,38;
