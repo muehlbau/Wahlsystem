@@ -1,7 +1,7 @@
 \documentclass[a4paper]{article}
 \usepackage[german]{babel}
-\usepackage[pdftex]{graphicx}
-\usepackage[pdftex,a4paper=true,backref=true,hyperindex=false,colorlinks=false,pdfhighlight=/N,linkbordercolor={0 0 0}, pdfborder={0 0 0},breaklinks=true,pdftitle={Dokumentation: Wahlinformationssystem}, pdfauthor={Tobias Johann Mühlbauer, Wolf Rödiger},pdfproducer={Latex},pdfcreator={LaTex+dvips+ps2pdf}]{hyperref}
+\usepackage[dvips]{graphicx}
+\usepackage[dvips,a4paper=true,backref=true,hyperindex=false,colorlinks=false,pdfhighlight=/N,linkbordercolor={0 0 0}, pdfborder={0 0 0},breaklinks=true,pdftitle={Dokumentation: Wahlinformationssystem}, pdfauthor={Tobias Johann Mühlbauer, Wolf Rödiger},pdfproducer={Latex},pdfcreator={LaTex+dvips+ps2pdf}]{hyperref}
 \usepackage{breakurl}\usepackage[utf8]{inputenc}
 \usepackage{url}
 \author{Wolf Rödiger, Tobias Mühlbauer \\ roediger at in.tum.de, muehlbau at in.tum.de}
@@ -282,4 +282,72 @@ Die Integritätsbedingungen für das Wahlinformationssystem ergeben sich aus dem
 \paragraph{Beeinflussung:} Es sind keine Informationen vor Wahlende abrufbar.
 
 \paragraph{Rahmenbedingungen:} Die Zahl der Wahlberechtigten eines Wahlbezirks ist nicht so gering, dass erkennbar wird, wie einzelne Wahlberechtigte gewählt haben.
+
+\section{UML-Datenmodell}
+
+\includegraphics[scale=1,angle=90]{datenmodell.eps}
+
+\section{Relationale Modellierung}
+
+Im Folgenden werden die Schemata des Datenmodells dargestellt. Eine Verfeinerung wurde an geeigneten Stellen durchgeführt. Dadurch ist nicht jede Assoziation durch ein eigenes Schema vertreten.
+
+\subsection{Schemata aus Klassen}
+
+\begin{description}
+
+\item[Bundesland:] \{[ \underline{Name: varchar}, Wappen : blob  ]\}
+
+\item[Wahlkreis:] \{[ \underline{Wahlkreisnummer: integer}, Name : varchar, Bundesland: \\varchar  ]\}
+
+\item[Wahlbezirk:] \{[ \underline{Wahlbezirknummer: integer}, Name : varchar, Wahlkreis:\\integer  ]\}
+
+\item[Kandidat:] \{[ \underline{Kandidatennummer: integer}, Vorname : varchar, Nachname: varchar, Titel: character, Geschlecht: character, Geburtsjahr: integer, Bild: blob, Partei: varchar  ]\}
+
+\item[Partei:] \{[ \underline{Kurzbezeichnung: varchar}, Name : varchar, Frauenanteil: decimal, Mitglieder: integer, Durchschnittsalter: decimal, Zuschüsse: decimal, Logo: blob, Farbe: character  ]\}
+
+\item[Landesliste:] \{[ \underline{Listennummer: integer}, Bundesland: varchar, Partei: \\varchar ]\}
+
+\item[Fraktion:] \{[ \underline{Fraktionsnummer: integer}, Bezeichnung: varchar ]\}
+
+\item[Listenmandat:] \{[ \underline{Mandatsnummer: integer}, Landesliste: \\integer ]\}
+
+\item[Direktmandat:] \{[ \underline{Mandatsnummer: integer}, Wahlkreis: \\integer ]\}
+
+\item[Mandat:] \{[ \underline{Mandatsnummer: integer}, Kandidat: integer, Legislaturperiode: integer, Fraktion: integer]\}
+
+\item[Stimmzettel:] \{[ \underline{Stimmzettelnummer: integer}, Gültig: character, Wahlbezirk: integer, Erststimme: integer, Zweitstimme: integer ]\}
+
+\item[Wahlergebnis:] \{[ \underline{Ergebnisnummer: integer}, Legislaturperiode: integer ]\}
+
+\item[Wahlkreisergebnis:] \{[ \underline{Ergebnisnummer: integer, Wahlkreis: integer}, Gültige: integer, Ungültige: integer, Wähler : integer, Wahlberechtigte: integer, Endergebnis: character ]\}
+
+\item[Wahlkreiserststimmenergebnis:] \{[ \underline{Ergebnisnummer: integer, Kandidat: integer, Wahlkreis: integer}, Stimmen: integer, Stimmenprozent: decimal ]\}
+
+\item[Wahlkreiszweitstimmenergebnis:] \{[ \underline{Ergebnisnummer: integer, Partei: varchar, Wahlkreis: integer}, Stimmen: integer, Stimmenprozent: decimal ]\}
+
+\item[Landesergebnis:] \{[ \underline{Ergebnisnummer: integer, Bundesland: varchar}, Gültige: integer, Ungültige: integer, Wähler : integer, Wahlberechtigte: integer, Endergebnis: character ]\}
+
+\item[Landesteilergebnis:] \{[ \underline{Ergebnisnummer: integer, Bundesland: varchar, Partei: varchar}, Erststimmen: integer, Erststimmenprozent: decimal, Zweitstimmen : integer, Zweitstimmenprozent: decimal, Direktmandate: integer, Überhangmandate: integer, Listenmandate: integer ]\}
+
+\item[Bundesergebnis:] \{[ \underline{Ergebnisnummer: integer}, Gültige: integer, Ungültige: integer, Wähler : integer, Wahlberechtigte: integer, Endergebnis: \\character ]\}
+
+\item[Bundesteilergebnis:] \{[ \underline{Ergebnisnummer: integer, Partei: varchar}, Erststimmen: integer, Erststimmenprozent: decimal, Zweitstimmen : integer, Zweitstimmenprozent: decimal, Direktmandate: integer, Überhangmandate: integer, Listenmandate: integer ]\}
+
+\end{description}
+
+\subsection{Schemata aus Assoziationen}
+
+\begin{description}
+
+\item[Direktkandidatur:] \{[ \underline{Kandidat: integer}, Wahlkreis: integer ]\}
+
+\item[Listenplatz:] \{[ \underline{Landesliste: integer, Position: integer}, Kandidat: integer ]\}
+
+\item[Fraktionspartei:] \{[ \underline{Partei: varchar}, Fraktion: integer ]\}
+
+\item[Fraktionsvorsitz:] \{[ \underline{Kandidat: varchar}, Fraktion: integer ]\}
+
+\end{description}
+
 \end{document}
+
