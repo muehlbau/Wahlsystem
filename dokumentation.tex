@@ -227,7 +227,7 @@ Das Ergebnis der Bundestagswahl entscheidet über die Parlamentarier im Bundesta
 
 \section{Datenverarbeitungsanforderungen}
 
-Es folgen die Prozessbeschreibungen für das Wahlinformationssystem:
+Es folgen exemplarisch einige Prozessbeschreibungen für das Wahlinformationssystem:
 
 \paragraph{Eintragen von Wahlergebnissen}
 \begin{itemize}
@@ -295,9 +295,9 @@ Im Folgenden werden die Schemata des Datenmodells dargestellt. Eine Verfeinerung
 
 \begin{description}
 
-\item[Bundesland:] \{[ \underline{Name: varchar}, Wappen : blob  ]\}
+\item[Bundesland:] \{[ \underline{Name: varchar}, Wappen: blob, Wahlberechtigte: int  ]\}
 
-\item[Wahlkreis:] \{[ \underline{Wahlkreisnummer: integer}, Name : varchar, Bundesland: \\varchar  ]\}
+\item[Wahlkreis:] \{[ \underline{Wahlkreisnummer: integer}, Name : varchar, Bundesland: \\varchar,   ]\}
 
 \item[Wahlbezirk:] \{[ \underline{Wahlbezirknummer: integer}, Name : varchar, Wahlkreis:\\integer  ]\}
 
@@ -308,6 +308,8 @@ Im Folgenden werden die Schemata des Datenmodells dargestellt. Eine Verfeinerung
 \item[Landesliste:] \{[ \underline{Listennummer: integer}, Bundesland: varchar, Partei: \\varchar ]\}
 
 \item[Fraktion:] \{[ \underline{Fraktionsnummer: integer}, Bezeichnung: varchar ]\}
+
+\item[Legislaturperiode:] \{[ \underline{Legislaturperiode: integer}, Wahljahr: integer ]\}
 
 \item[Listenmandat:] \{[ \underline{Mandatsnummer: integer}, Landesliste: \\integer ]\}
 
@@ -341,11 +343,11 @@ Im Folgenden werden die Schemata des Datenmodells dargestellt. Eine Verfeinerung
 
 \item[Direktkandidatur:] \{[ \underline{Kandidat: integer}, Wahlkreis: integer ]\}
 
-\item[Listenplatz:] \{[ \underline{Landesliste: integer, Position: integer}, Kandidat: integer ]\}
+\item[Listenplatz:] \{[ \underline{Landesliste: integer, Platz: integer}, Kandidat: integer ]\}
 
 \item[Fraktionspartei:] \{[ \underline{Partei: varchar}, Fraktion: integer ]\}
 
-\item[Fraktionsvorsitz:] \{[ \underline{Kandidat: varchar}, Fraktion: integer ]\}
+\item[Fraktionsvorsitz:] \{[ \underline{Kandidat: integer}, Fraktion: integer ]\}
 
 \end{description}
 
