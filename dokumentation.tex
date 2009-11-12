@@ -319,17 +319,17 @@ Im Folgenden werden die Schemata des Datenmodells dargestellt. Eine Verfeinerung
 
 \item[Stimmzettel:] \{[ \underline{Stimmzettelnummer: integer}, Gültig: character, Wahlbezirk: integer, Erststimme: integer, Zweitstimme: integer ]\}
 
-\item[Wahlkreisergebnis:] \{[ \underline{Legislaturperiode: integer, Wahlkreis: integer}, Gültige: integer, Ungültige: integer, Wähler : integer, Wahlberechtigte: integer ]\}
+\item[Wahlkreisergebnis:] \{[ \underline{Legislaturperiode: integer, Wahlkreis: integer}, Gültigeerststimmen: integer, Gültigezweitstimmen: integer, Wähler : integer, Wahlberechtigte: integer ]\}
 
 \item[Wahlkreiserststimmenergebnis:] \{[ \underline{Legislaturperiode: integer, Kandidat: integer, Wahlkreis: integer}, Stimmen: integer, Stimmenprozent: decimal ]\}
 
 \item[Wahlkreiszweitstimmenergebnis:] \{[ \underline{Legislaturperiode: integer, Partei: varchar, Wahlkreis: integer}, Stimmen: integer, Stimmenprozent: decimal ]\}
 
-\item[Landesergebnis:] \{[ \underline{Legislaturperiode: integer, Bundesland: varchar}, Gültige: integer, Ungültige: integer, Wähler : integer, Wahlberechtigte: integer ]\}
+\item[Landesergebnis:] \{[ \underline{Legislaturperiode: integer, Bundesland: varchar}, Gültigeerststimmen: integer, Gültigezweitstimmen: integer, Wähler : integer, Wahlberechtigte: integer ]\}
 
 \item[Landesteilergebnis:] \{[ \underline{Legislaturperiode: integer, Bundesland: varchar, Partei: varchar}, Erststimmen: integer, Erststimmenprozent: decimal, Zweitstimmen : integer, Zweitstimmenprozent: decimal, Direktmandate: integer, Überhangmandate: integer, Listenmandate: integer ]\}
 
-\item[Bundesergebnis:] \{[ \underline{Legislaturperiode: integer}, Gültige: integer, Ungültige: integer, Wähler : integer, Wahlberechtigte: integer ]\}
+\item[Bundesergebnis:] \{[ \underline{Legislaturperiode: integer}, Gültigeerststimmen: integer, Gültigezweitstimmen: integer, Wähler : integer, Wahlberechtigte: integer ]\}
 
 \item[Bundesteilergebnis:] \{[ \underline{Legislaturperiode: integer, Partei: varchar}, Erststimmen: integer, Erststimmenprozent: decimal, Zweitstimmen : integer, Zweitstimmenprozent: decimal, Direktmandate: integer, Überhangmandate: integer, Listenmandate: integer ]\}
 
