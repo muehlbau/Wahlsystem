@@ -1,5 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage[german]{babel}
+\usepackage{listings}
 \usepackage[dvips]{graphicx}
 \usepackage[dvips,a4paper=true,backref=true,hyperindex=false,colorlinks=false,pdfhighlight=/N,linkbordercolor={0 0 0}, pdfborder={0 0 0},breaklinks=true,pdftitle={Dokumentation: Wahlinformationssystem}, pdfauthor={Tobias Johann Mühlbauer, Wolf Rödiger},pdfproducer={Latex},pdfcreator={LaTex+dvips+ps2pdf}]{hyperref}
 \usepackage{breakurl}\usepackage[utf8]{inputenc}
@@ -351,49 +352,97 @@ Im Folgenden werden die Schemata des Datenmodells dargestellt. Eine Verfeinerung
 
 \section{Mockups von Anwendungsfällen}
 
-Im Folgenden sind exemplarisch Mockups des späteren Wahlinformationssystems gezeigt. Es wird vornehmlich Wert auf eine übersichtliche Aufbereitung bei gleichzeitig mächtiger Analysefähigkeit gelegt.
+In den Abbildungen 1 -- 7 sind exemplarisch Mockups des späteren Wahlinformationssystems gezeigt. Es wird vornehmlich Wert auf eine übersichtliche Aufbereitung bei gleichzeitig mächtiger Analysefähigkeit gelegt.
 
-\begin{figure}[H!]
+\begin{figure}[!h]
 \centering
 \includegraphics[scale=0.4]{Mockups/startseite}
 \caption{Mockup der Startseite des Wahlinformationssystems}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!h]
 \centering
 \includegraphics[scale=0.4]{Mockups/bundestag}
 \caption{Ansicht des Bundestags}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!h]
 \centering
 \includegraphics[scale=0.4]{Mockups/bundesland}
 \caption{Ergebnisse auf Bundeslandebene}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!h]
 \centering
 \includegraphics[scale=0.4]{Mockups/wahlkreis}
 \caption{Ergebnisse auf Wahlkreisebene}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!h]
 \centering
 \includegraphics[scale=0.4]{Mockups/kandidat}
 \caption{Detailinformationen zu den Kandidaten}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!h]
 \centering
 \includegraphics[scale=0.4]{Mockups/fraktion}
 \caption{Detailinformationen zu den Fraktionen}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[!h]
 \centering
 \includegraphics[scale=0.4]{Mockups/partei}
 \caption{Detailinformationen zu den Parteien}
 \end{figure}
+
+\section{Berechnung der Sitzverteilung}
+
+\subsection{Schritt 1: Direktmandate ermitteln}
+
+In einem ersten Schritt werden die 299 Gewinner und damit Direktmandatsträger der Wahlkreise ermittelt. Gewinner ist der Direktkandidat eines Wahlkreises der die meisten Erststimmen für sich verbuchen kann. Bei Stimmgleichheit entscheidet das Los. Unser Wahlinformationssystem ist in solchen Fällen auf eine Entscheidung des Bundeswahlleiters angewiesen.
+
+\subsection{Schritt 2: Listenmandate ermitteln}
+
+Die Listenmandate werden anhand des Verfahrens nach Sainte-Laguë (auch: Webster-Verfahren) berechnet. Aus designtechnischen Gründen wird das Höchst-zahlverfahren genutzt um zunächst eine bundesweite Sitzanzahl für die Parteien zu ermitteln, welche mehr als 5\% der Gesamtstimmen oder mindestens 3 Direktmandatsträger aufweisen können. Eine Hilfstabelle \texttt{UNEVEN} enthält hierfür die ersten 598 ungeraden Zahlen, welche als Divisoren für die Stimmanzahlen dienen. Mehr als 598 Divisionen sind nicht nötig, da nur 598 Listenmandate vergeben werden und in einem worst-case Szenario derselben Partei zufallen. Listing 1 zeigt den SQL-Query welcher zur Sitzbestimmung auf Bundesebene verwendet wird.
+
+\lstset{
+language=SQL,
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+numbers=left,                   % where to put the line-numbers
+numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
+stepnumber=2,                   % the step between two line-numbers. If it's 1 each line will be numbered
+numbersep=5pt,                  % how far the line-numbers are from the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+frame=single,	                % adds a frame around the code
+tabsize=2,	                % sets default tabsize to 2 spaces
+captionpos=b,                   % sets the caption-position to bottom
+breaklines=true                % sets automatic line breaking
+}
+\begin{lstlisting}[caption=Bestimmung der Listenmandate]
+WITH DIRECTMANDATES (PARTEI, MANDATES) AS (
+	SELECT PARTEI, COUNT(KANDIDAT)
+	FROM (DIREKTMANDAT JOIN MANDAT ON MANDAT.MANDATSNUMMER = DIREKTMANDAT.MANDATSNUMMER) JOIN KANDIDAT ON KANDIDAT.KANDIDATENNUMMER = MANDAT.KANDIDAT
+	WHERE LEGISLATURPERIODE = 17
+	GROUP BY PARTEI),
+QUALIFYING (PARTEI, ZWEITSTIMMEN) AS (
+	SELECT BUNDESTEILERGEBNIS.PARTEI, ZWEITSTIMMEN    
+	FROM BUNDESTEILERGEBNIS LEFT OUTER JOIN DIRECTMANDATES ON BUNDESTEILERGEBNIS.PARTEI = DIRECTMANDATES.PARTEI
+	WHERE LEGISLATURPERIODE = 17
+	AND (ZWEITSTIMMENPROZENT >= 5
+	OR DIRECTMANDATES.MANDATES >= 3)),
+QUOTIENTS AS (
+	SELECT PARTEI, CAST(ZWEITSTIMMEN AS FLOAT)/CAST(NUMBER AS FLOAT) AS QUOTIENT
+	FROM QUALIFYING, UNEVEN
+	ORDER BY QUOTIENT DESC
+	FETCH FIRST 598  ROWS ONLY)
+SELECT PARTEI, COUNT(PARTEI) AS LISTENMANDATE
+FROM QUOTIENTS
+GROUP BY PARTEI;
+\end{lstlisting}
+
+Nachdem eine Sitzverteilung auf Bundesebene bestimmt ist wird das selbe Verfahren verwendet um die Sitze einer Partei abhängig von den Stimmen aus den Bundesländern mit Kandidaten aus den Landeslisten zu besetzen. Hierbei ist zu beachten das von der Anzahl der auf Landesebene zu vergebenen Sitze erst noch die Direktmandate der Partei in diesem Bundesland abgezogen werden. Ist die Anzahl der durch Landeslisten zu vergebenden Mandate negativ, so wird dieser Überhang als Überhangmandate bezeichnet.
 
 \end{document}
 
