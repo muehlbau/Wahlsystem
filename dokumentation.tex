@@ -1,6 +1,7 @@
 \documentclass[a4paper]{article}
 \usepackage[german]{babel}
 \usepackage{listings}
+\usepackage{appendix}
 \usepackage[dvips]{graphicx}
 \usepackage[dvips,a4paper=true,backref=true,hyperindex=false,colorlinks=false,pdfhighlight=/N,linkbordercolor={0 0 0}, pdfborder={0 0 0},breaklinks=true,pdftitle={Dokumentation: Wahlinformationssystem}, pdfauthor={Tobias Johann Mühlbauer, Wolf Rödiger},pdfproducer={Latex},pdfcreator={LaTex+dvips+ps2pdf}]{hyperref}
 \usepackage{breakurl}\usepackage[utf8]{inputenc}
@@ -322,9 +323,9 @@ Im Folgenden werden die Schemata des Datenmodells dargestellt. Eine Verfeinerung
 
 \item[Wahlkreisergebnis:] \{[ \underline{Legislaturperiode: integer, Wahlkreis: integer}, Gültigeerststimmen: integer, Gültigezweitstimmen: integer, Wähler : integer, Wahlberechtigte: integer ]\}
 
-\item[Wahlkreiserststimmenergebnis:] \{[ \underline{Legislaturperiode: integer, Kandidat: integer, Wahlkreis: integer}, Stimmen: integer, Stimmenprozent: decimal ]\}
+\item[Wahlkreiserststimmenergebnis:] \{[ \underline{Erststimmenergebnisnummer: integer}, Legislaturperiode: integer, Kandidat: integer, Partei: varchar, Wahlkreis: integer, Stimmen: integer, Stimmenprozent: decimal ]\}
 
-\item[Wahlkreiszweitstimmenergebnis:] \{[ \underline{Legislaturperiode: integer, Partei: varchar, Wahlkreis: integer}, Stimmen: integer, Stimmenprozent: decimal ]\}
+\item[Wahlkreiszweitstimmenergebnis:] \{[ \underline{Legislaturperiode: integer, Partei: varchar} \underline{, Wahlkreis: integer}, Stimmen: integer, Stimmenprozent: decimal ]\}
 
 \item[Landesergebnis:] \{[ \underline{Legislaturperiode: integer, Bundesland: varchar}, Gültigeerststimmen: integer, Gültigezweitstimmen: integer, Wähler : integer, Wahlberechtigte: integer ]\}
 
@@ -352,49 +353,7 @@ Im Folgenden werden die Schemata des Datenmodells dargestellt. Eine Verfeinerung
 
 \section{Mockups von Anwendungsfällen}
 
-In den Abbildungen 1 -- 7 sind exemplarisch Mockups des späteren Wahlinformationssystems gezeigt. Es wird vornehmlich Wert auf eine übersichtliche Aufbereitung bei gleichzeitig mächtiger Analysefähigkeit gelegt.
-
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.4]{Mockups/startseite}
-\caption{Mockup der Startseite des Wahlinformationssystems}
-\end{figure}
-
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.4]{Mockups/bundestag}
-\caption{Ansicht des Bundestags}
-\end{figure}
-
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.4]{Mockups/bundesland}
-\caption{Ergebnisse auf Bundeslandebene}
-\end{figure}
-
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.4]{Mockups/wahlkreis}
-\caption{Ergebnisse auf Wahlkreisebene}
-\end{figure}
-
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.4]{Mockups/kandidat}
-\caption{Detailinformationen zu den Kandidaten}
-\end{figure}
-
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.4]{Mockups/fraktion}
-\caption{Detailinformationen zu den Fraktionen}
-\end{figure}
-
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.4]{Mockups/partei}
-\caption{Detailinformationen zu den Parteien}
-\end{figure}
+In Appendix \ref{mockups} sind exemplarisch Mockups des späteren Wahlinformationssystems gezeigt. Es wird vornehmlich Wert auf eine übersichtliche Aufbereitung bei gleichzeitig mächtiger Analysefähigkeit gelegt.
 
 \section{Berechnung der Sitzverteilung}
 
@@ -420,7 +379,7 @@ tabsize=2,	                % sets default tabsize to 2 spaces
 captionpos=b,                   % sets the caption-position to bottom
 breaklines=true                % sets automatic line breaking
 }
-\begin{lstlisting}[caption=Bestimmung der Listenmandate]
+\begin{lstlisting}[caption=Bestimmung der Listenmandate für die 17. Legislaturperiode]
 WITH DIRECTMANDATES (PARTEI, MANDATES) AS (
 	SELECT PARTEI, COUNT(KANDIDAT)
 	FROM (DIREKTMANDAT JOIN MANDAT ON MANDAT.MANDATSNUMMER = DIREKTMANDAT.MANDATSNUMMER) JOIN KANDIDAT ON KANDIDAT.KANDIDATENNUMMER = MANDAT.KANDIDAT
@@ -444,5 +403,53 @@ GROUP BY PARTEI;
 
 Nachdem eine Sitzverteilung auf Bundesebene bestimmt ist wird das selbe Verfahren verwendet um die Sitze einer Partei abhängig von den Stimmen aus den Bundesländern mit Kandidaten aus den Landeslisten zu besetzen. Hierbei ist zu beachten das von der Anzahl der auf Landesebene zu vergebenen Sitze erst noch die Direktmandate der Partei in diesem Bundesland abgezogen werden. Ist die Anzahl der durch Landeslisten zu vergebenden Mandate negativ, so wird dieser Überhang als Überhangmandate bezeichnet.
 
+\addappheadtotoc
+\appendix
+\newpage
+
+\section{Mockups}
+\label{mockups}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{Mockups/startseite}
+\caption{Mockup der Startseite des Wahlinformationssystems}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{Mockups/bundestag}
+\caption{Ansicht des Bundestags}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{Mockups/bundesland}
+\caption{Ergebnisse auf Bundeslandebene}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{Mockups/wahlkreis}
+\caption{Ergebnisse auf Wahlkreisebene}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{Mockups/kandidat}
+\caption{Detailinformationen zu den Kandidaten}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{Mockups/fraktion}
+\caption{Detailinformationen zu den Fraktionen}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{Mockups/partei}
+\caption{Detailinformationen zu den Parteien}
+\end{figure}
 \end{document}
 
