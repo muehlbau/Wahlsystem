@@ -379,7 +379,7 @@ tabsize=2,	                % sets default tabsize to 2 spaces
 captionpos=b,                   % sets the caption-position to bottom
 breaklines=true                % sets automatic line breaking
 }
-\begin{lstlisting}[caption=Bestimmung der Listenmandate für die 17. Legislaturperiode]
+\begin{lstlisting}[caption=Bestimmung der Mandate für die 17. Legislaturperiode]
 WITH DIRECTMANDATES (PARTEI, MANDATES) AS (
 	SELECT PARTEI, COUNT(KANDIDAT)
 	FROM (DIREKTMANDAT JOIN MANDAT ON MANDAT.MANDATSNUMMER = DIREKTMANDAT.MANDATSNUMMER) JOIN KANDIDAT ON KANDIDAT.KANDIDATENNUMMER = MANDAT.KANDIDAT
@@ -401,7 +401,22 @@ FROM QUOTIENTS
 GROUP BY PARTEI;
 \end{lstlisting}
 
-Nachdem eine Sitzverteilung auf Bundesebene bestimmt ist wird das selbe Verfahren verwendet um die Sitze einer Partei abhängig von den Stimmen aus den Bundesländern mit Kandidaten aus den Landeslisten zu besetzen. Hierbei ist zu beachten das von der Anzahl der auf Landesebene zu vergebenen Sitze erst noch die Direktmandate der Partei in diesem Bundesland abgezogen werden. Ist die Anzahl der durch Landeslisten zu vergebenden Mandate negativ, so wird dieser Überhang als Überhangmandate bezeichnet.
+Nachdem eine Sitzverteilung auf Bundesebene bestimmt ist wird das selbe Verfahren verwendet um die Sitze einer Partei abhängig von den Stimmen aus den Bundesländern mit Kandidaten aus den Landeslisten zu besetzen. Dies ist in Listing 2 gezeigt. Hierbei ist zu beachten das von der errechneten Anzahl der auf Landesebene zu vergebenen Sitze erst noch die Direktmandate der Partei in diesem Bundesland abgezogen werden. Ist die Anzahl der durch Landeslisten zu vergebenden Mandate negativ, so wird dieser Überhang als Überhangmandate bezeichnet und keine Listenmandate werden vergeben, ist die Anzahl positiv werden Listenmandate nach Priorität von der Landesliste der jeweiligen Partei vergeben.
+
+\begin{lstlisting}[caption=Bestimmung der Landesmandate für die 17. Legislaturperiode und die Partei SPD]
+WITH QUOTIENTS AS (
+	SELECT PARTEI, BUNDESLAND, CAST(ZWEITSTIMMEN AS FLOAT)/CAST(NUMBER AS FLOAT) AS QUOTIENT
+	FROM LANDESTEILERGEBNIS, UNEVEN
+	WHERE PARTEI = 'SPD'
+	AND LEGISLATURPERIODE = 17
+	ORDER BY QUOTIENT DESC
+	FETCH FIRST 146 ROWS ONLY)
+SELECT PARTEI, BUNDESLAND, COUNT(BUNDESLAND) AS LISTENMANDATE
+FROM QUOTIENTS
+GROUP BY BUNDESLAND, PARTEI;
+\end{lstlisting}
+
+\textbf{Hinweis:} Die vorgestellten Verfahren können unter Umständen bei Stimmgleichheit von Parteien dazu führen, dass Sitze falsch zugeordnet werden. In solchen Fällen wäre eine Losentscheidung des Bundeswahlleiters von nöten.  Wir werten diesen Fall als sehr unrealistisch und werden ihn in der Applikationslogik beachten.
 
 \addappheadtotoc
 \appendix
