@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configuration>
+    <numberofterminals>100</numberofterminals>
+    <latencyexpectation>50</latencyexpectation>
+    <website>
+        <url>http://www-db.in.tum.de/</url>
+        <supplementaryurl>http://www-db.in.tum.de/images/Fakultaet_logo_102.png</supplementaryurl>
+        <frequency>10</frequency>
+    </website>
+</configuration>
