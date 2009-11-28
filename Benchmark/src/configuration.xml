@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <configuration>
-    <numberofterminals>100</numberofterminals>
-    <latencyexpectation>50</latencyexpectation>
+    <numberOfTerminals>100</numberOfTerminals>
+    <latencyExpectation>50</latencyExpectation>
     <website>
-        <url>http://www-db.in.tum.de/</url>
-        <supplementaryurl>http://www-db.in.tum.de/images/Fakultaet_logo_102.png</supplementaryurl>
+        <url>http://www.tagesschau.de/</url>
+        <supplementaryUrl>http://www.tagesschau.de</supplementaryUrl>
         <frequency>10</frequency>
     </website>
 </configuration>

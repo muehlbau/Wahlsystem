@@ -1,0 +1,2066 @@
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 218 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 282 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 263 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 250 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 249 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 275 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:199)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 297 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 310 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 315 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 346 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 350 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 360 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 371 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 381 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 382 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 405 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 406 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 434 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 440 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 459 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 490 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 483 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 16 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 516 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 526 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:199)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 552 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:199)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 17 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 591 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 593 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 613 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 615 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 647 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:14, Time: 652 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:199)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 634 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 637 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 1545 ms
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 1546 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:199)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:13:15, Time: 2543 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 165 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 172 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 179 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:199)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 237 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 265 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 267 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 283 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 294 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 307 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 331 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 341 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 347 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 372 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 375 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 391 ms
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 404 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 1427 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www-db.in.tum.de/, Start: 00:14:09, Time: 2388 ms
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+An error occured during the benchmark!
+org.apache.http.conn.HttpHostConnectException: Connection to http://www-db.in.tum.de refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:127)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:147)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:101)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:381)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:641)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:576)
+	at Benchmark$BenchmarkThread.run(Benchmark.java:193)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:432)
+	at java.net.Socket.connect(Socket.java:525)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:123)
+	... 6 more
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 680 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 754 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 904 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 1106 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 1724 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 1878 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 2009 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 2103 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 2237 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 2464 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 2664 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 2888 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 2886 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 3074 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 3419 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 3523 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 3890 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 3870 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 4054 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 4200 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 4277 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 4398 ms
+URL: http://www.tagesschau.de/, Start: 00:15:02, Time: 148 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 4687 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 4763 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 4991 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 5142 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 5281 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 5289 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 5368 ms
+URL: http://www.tagesschau.de/, Start: 00:14:59, Time: 4303 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 5714 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 5814 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 5889 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6003 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 5986 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6085 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6184 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6355 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6380 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6459 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6553 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6706 ms
+URL: http://www.tagesschau.de/, Start: 00:15:00, Time: 4820 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6858 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 6956 ms
+URL: http://www.tagesschau.de/, Start: 00:15:00, Time: 4837 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7086 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7163 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7237 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7272 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7395 ms
+URL: http://www.tagesschau.de/, Start: 00:15:00, Time: 4769 ms
+URL: http://www.tagesschau.de/, Start: 00:15:01, Time: 4694 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7697 ms
+URL: http://www.tagesschau.de/, Start: 00:15:01, Time: 4822 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7770 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7844 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7851 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 7917 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8003 ms
+URL: http://www.tagesschau.de/, Start: 00:15:01, Time: 4663 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8148 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8219 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8246 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8305 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8346 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8373 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8482 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8525 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8590 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8639 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8667 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8777 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 154 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8934 ms
+URL: http://www.tagesschau.de/, Start: 00:15:02, Time: 4711 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9059 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9054 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9078 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9132 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9199 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9352 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9398 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9456 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9454 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9501 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9508 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 8857 ms
+URL: http://www.tagesschau.de/, Start: 00:14:59, Time: 8843 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9654 ms
+URL: http://www.tagesschau.de/, Start: 00:15:03, Time: 4520 ms
+URL: http://www.tagesschau.de/, Start: 00:14:59, Time: 8757 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 9833 ms
+URL: http://www.tagesschau.de/, Start: 00:15:03, Time: 4533 ms
+URL: http://www.tagesschau.de/, Start: 00:15:03, Time: 4228 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 4096 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 3927 ms
+URL: http://www.tagesschau.de/, Start: 00:15:00, Time: 8472 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 3809 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 10345 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 10385 ms
+URL: http://www.tagesschau.de/, Start: 00:15:00, Time: 8436 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 3745 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 10592 ms
+URL: http://www.tagesschau.de/, Start: 00:15:00, Time: 8392 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 3734 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 3665 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 10951 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 11060 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 11165 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 11397 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 11514 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 3390 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 3356 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 3431 ms
+URL: http://www.tagesschau.de/, Start: 00:15:02, Time: 7824 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 11925 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 12033 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 12059 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 3301 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 12194 ms
+URL: http://www.tagesschau.de/, Start: 00:15:02, Time: 7911 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 3191 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 12370 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 12377 ms
+URL: http://www.tagesschau.de/, Start: 00:15:02, Time: 7762 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 12472 ms
+URL: http://www.tagesschau.de/, Start: 00:15:03, Time: 7720 ms
+URL: http://www.tagesschau.de/, Start: 00:15:02, Time: 7810 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 3245 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 3237 ms
+URL: http://www.tagesschau.de/, Start: 00:15:03, Time: 7676 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 3265 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 3221 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 3170 ms
+URL: http://www.tagesschau.de/, Start: 00:15:03, Time: 7676 ms
+URL: http://www.tagesschau.de/, Start: 00:15:03, Time: 7536 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 7284 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 7184 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 13261 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 6903 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 3165 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 3146 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 3141 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 6829 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 3150 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 3111 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 6721 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 6632 ms
+URL: http://www.tagesschau.de/, Start: 00:15:00, Time: 11307 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 13939 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 6561 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 6514 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 6439 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 6350 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6350 ms
+URL: http://www.tagesschau.de/, Start: 00:15:09, Time: 2986 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6331 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6367 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6334 ms
+URL: http://www.tagesschau.de/, Start: 00:15:09, Time: 2885 ms
+URL: http://www.tagesschau.de/, Start: 00:15:01, Time: 10814 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6240 ms
+URL: http://www.tagesschau.de/, Start: 00:15:09, Time: 2884 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6165 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6180 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6028 ms
+URL: http://www.tagesschau.de/, Start: 00:15:02, Time: 10684 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 2828 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 6007 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 2852 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 2813 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 6019 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 6030 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 6030 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 2978 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 6107 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 3236 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 6287 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 15932 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 6453 ms
+URL: http://www.tagesschau.de/, Start: 00:15:03, Time: 10888 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 6522 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 10476 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 6478 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 3491 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 10437 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 6586 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 10231 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 6476 ms
+URL: http://www.tagesschau.de/, Start: 00:15:04, Time: 10249 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 16944 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 3455 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 3466 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 6577 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 6566 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 3607 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 6658 ms
+URL: http://www.tagesschau.de/, Start: 00:15:09, Time: 6627 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 10189 ms
+URL: http://www.tagesschau.de/, Start: 00:15:09, Time: 6611 ms
+URL: http://www.tagesschau.de/, Start: 00:15:09, Time: 6590 ms
+URL: http://www.tagesschau.de/, Start: 00:15:01, Time: 14570 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 3743 ms
+URL: http://www.tagesschau.de/, Start: 00:15:09, Time: 6703 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 10169 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 3904 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 10140 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 4080 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 4033 ms
+URL: http://www.tagesschau.de/, Start: 00:15:02, Time: 14613 ms
+URL: http://www.tagesschau.de/, Start: 00:15:09, Time: 6838 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6824 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 10188 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 10114 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6869 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 10028 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6959 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6941 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6929 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 10095 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6882 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6906 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 9991 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6939 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 10067 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 6905 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 9995 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 3786 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 6878 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 6984 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 6948 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 6924 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 3666 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 10083 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 6934 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 6914 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 3623 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 3584 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 6930 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 6953 ms
+URL: http://www.tagesschau.de/, Start: 00:15:08, Time: 10016 ms
+URL: http://www.tagesschau.de/, Start: 00:14:58, Time: 20443 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 13749 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 3699 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 7106 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 7149 ms
+URL: http://www.tagesschau.de/, Start: 00:15:05, Time: 13772 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 3761 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7202 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7260 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 3614 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 3633 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7234 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7329 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7279 ms
+URL: http://www.tagesschau.de/, Start: 00:15:06, Time: 13497 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 3514 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7308 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7316 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7462 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 3554 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7545 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7599 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7608 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 3587 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 10328 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 7674 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 7721 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 3647 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 7597 ms
+URL: http://www.tagesschau.de/, Start: 00:15:07, Time: 13526 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 7617 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 7678 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 3607 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 3648 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 3707 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 7588 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 3605 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 7403 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 10495 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 3627 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 7392 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 3690 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 7253 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 3664 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 7220 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 3729 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 7143 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 10514 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 3731 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 7217 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 3681 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 7157 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 10635 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 3806 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 7239 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 3686 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 3692 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 7198 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 7217 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 3677 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 7228 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 3714 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 7227 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 7167 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 7165 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 10979 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 3750 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 3737 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 10959 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 3651 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 7261 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 3699 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 7165 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 7665 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 11346 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 7355 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 7339 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 7288 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 3893 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 11390 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 3825 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 3862 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 3847 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 3861 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 14221 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 11295 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 3917 ms
+URL: http://www.tagesschau.de/, Start: 00:15:10, Time: 14251 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 3875 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 3923 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 7444 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 7412 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 7496 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 7451 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 7452 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 7429 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 3916 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 3855 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 3796 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 7457 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 10968 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 10935 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 3937 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 7454 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 3916 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 11015 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 4076 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 7593 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 7485 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 11033 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 3973 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 7502 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 4100 ms
+URL: http://www.tagesschau.de/, Start: 00:15:15, Time: 11154 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 7601 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 14790 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 7699 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 7687 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 7736 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 4144 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 7713 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 4049 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 7570 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 7606 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 11101 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 3983 ms
+URL: http://www.tagesschau.de/, Start: 00:15:13, Time: 15103 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 7637 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 3879 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 11132 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 7616 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 7659 ms
+URL: http://www.tagesschau.de/, Start: 00:15:17, Time: 11213 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 7552 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 11149 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 3831 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 7600 ms
+URL: http://www.tagesschau.de/, Start: 00:15:14, Time: 14711 ms
+URL: http://www.tagesschau.de/, Start: 00:15:11, Time: 17946 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 3784 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 7610 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 7629 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 3770 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 7578 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 11069 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 10212 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 13776 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 6824 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 10237 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 10161 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 10381 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10337 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 13925 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10356 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10359 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10379 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10396 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10354 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 13934 ms
+URL: http://www.tagesschau.de/, Start: 00:15:27, Time: 6369 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10370 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10339 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10342 ms
+URL: http://www.tagesschau.de/, Start: 00:15:12, Time: 21332 ms
+URL: http://www.tagesschau.de/, Start: 00:15:16, Time: 17326 ms
+URL: http://www.tagesschau.de/, Start: 00:15:27, Time: 6375 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 10203 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 13828 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 10151 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 10142 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 10123 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 10137 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 6284 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 10074 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 10047 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 13778 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 10041 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 6226 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 13756 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 9990 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 9975 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 9953 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 6151 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 9936 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 13694 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 9899 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 9907 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 10023 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 9951 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 10030 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 6308 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 17470 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 6352 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 10077 ms
+URL: http://www.tagesschau.de/, Start: 00:15:21, Time: 13885 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 6382 ms
+URL: http://www.tagesschau.de/, Start: 00:15:18, Time: 17421 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 10093 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 6451 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 10053 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 13835 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 10014 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 6534 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 9994 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 9983 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 10049 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 10052 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 9984 ms
+URL: http://www.tagesschau.de/, Start: 00:15:32, Time: 3796 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 13800 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 9925 ms
+URL: http://www.tagesschau.de/, Start: 00:15:27, Time: 9832 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 3545 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 3645 ms
+URL: http://www.tagesschau.de/, Start: 00:15:27, Time: 9791 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 3560 ms
+URL: http://www.tagesschau.de/, Start: 00:15:27, Time: 9837 ms
+URL: http://www.tagesschau.de/, Start: 00:15:19, Time: 17385 ms
+URL: http://www.tagesschau.de/, Start: 00:15:23, Time: 13678 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 3433 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 9612 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 3463 ms
+URL: http://www.tagesschau.de/, Start: 00:15:20, Time: 17129 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 3536 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 3658 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 3637 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 9788 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 9856 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 13525 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 9813 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 9879 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 9867 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 13584 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 9949 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 10017 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 4008 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 4023 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 3989 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 13879 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 10276 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 10279 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 14162 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 14111 ms
+URL: http://www.tagesschau.de/, Start: 00:15:25, Time: 14220 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 10572 ms
+URL: http://www.tagesschau.de/, Start: 00:15:22, Time: 18057 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 10693 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 4312 ms
+URL: http://www.tagesschau.de/, Start: 00:15:32, Time: 7930 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 14121 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 4390 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 14113 ms
+URL: http://www.tagesschau.de/, Start: 00:15:26, Time: 14190 ms
+URL: http://www.tagesschau.de/, Start: 00:15:32, Time: 8048 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 8035 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 8018 ms
+URL: http://www.tagesschau.de/, Start: 00:15:27, Time: 14170 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7812 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7923 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 4480 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7885 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7788 ms
+URL: http://www.tagesschau.de/, Start: 00:15:27, Time: 14182 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7869 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7896 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7846 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7868 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 7918 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 7925 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 7895 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 4527 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 7860 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 7885 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 4550 ms
+URL: http://www.tagesschau.de/, Start: 00:15:28, Time: 14050 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 7944 ms
+URL: http://www.tagesschau.de/, Start: 00:15:24, Time: 17838 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 4334 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 7943 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 7966 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 4305 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 4311 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 4207 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 8001 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 8015 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 7995 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 8055 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 4336 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 14298 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 4235 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 4265 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 4212 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 8146 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 14415 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 8067 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 4156 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 8148 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 8270 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 8218 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 8199 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8236 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8218 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8266 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8228 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8243 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8255 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8270 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8199 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 3992 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8195 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 3983 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8266 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 8285 ms
+URL: http://www.tagesschau.de/, Start: 00:15:33, Time: 11676 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 8282 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 8256 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 8340 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 3929 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 8287 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 11715 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 11768 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 8334 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 3963 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 8261 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 11654 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 3911 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 8145 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 3912 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 8026 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 7972 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 3835 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 7915 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 11773 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 3822 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 11586 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 3667 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 7624 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 3613 ms
+URL: http://www.tagesschau.de/, Start: 00:15:29, Time: 17783 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 7532 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 3506 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 11477 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 7308 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 3429 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 3293 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 3346 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 7322 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 3311 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 7227 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 11361 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 7219 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 3292 ms
+URL: http://www.tagesschau.de/, Start: 00:15:36, Time: 11412 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 7138 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 7082 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 7099 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 3184 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 3156 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 6967 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 11263 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 7004 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 6979 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 11281 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 7017 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 6946 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 7076 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 7122 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 7385 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 7675 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 8106 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 8188 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 4297 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8201 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8226 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 15939 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8238 ms
+URL: http://www.tagesschau.de/, Start: 00:15:34, Time: 16107 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 4536 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 4488 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8442 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8466 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8767 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8685 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 12913 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8827 ms
+URL: http://www.tagesschau.de/, Start: 00:15:38, Time: 12993 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 8878 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 9009 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 5198 ms
+URL: http://www.tagesschau.de/, Start: 00:15:35, Time: 16844 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 8810 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 8841 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 8804 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 5484 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 8858 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 12714 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 8757 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 8786 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 5568 ms
+URL: http://www.tagesschau.de/, Start: 00:15:40, Time: 12616 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 5650 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 12596 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 8768 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 8731 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 152 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 8769 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 8824 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 5753 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 8862 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 9043 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 9050 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 5905 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 9422 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 12987 ms
+URL: http://www.tagesschau.de/, Start: 00:15:37, Time: 17301 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 9229 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 9360 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 5115 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 5142 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9427 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 5041 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9550 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 4915 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9578 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 13346 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9559 ms
+URL: http://www.tagesschau.de/, Start: 00:15:51, Time: 4816 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9608 ms
+URL: http://www.tagesschau.de/, Start: 00:15:51, Time: 4669 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 13512 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9860 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9850 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9871 ms
+URL: http://www.tagesschau.de/, Start: 00:15:39, Time: 17662 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 13397 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9936 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9954 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 9944 ms
+URL: http://www.tagesschau.de/, Start: 00:15:43, Time: 13436 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10069 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 9993 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10027 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10062 ms
+URL: http://www.tagesschau.de/, Start: 00:15:52, Time: 4704 ms
+URL: http://www.tagesschau.de/, Start: 00:15:52, Time: 4781 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10175 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10159 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 13464 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10185 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10281 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 13417 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10284 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10262 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10288 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10319 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10284 ms
+URL: http://www.tagesschau.de/, Start: 00:15:41, Time: 17224 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 10312 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 10381 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 13348 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 10367 ms
+URL: http://www.tagesschau.de/, Start: 00:15:45, Time: 13342 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 10268 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 10240 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 4711 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 10289 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 10221 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 10152 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 4514 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 4362 ms
+URL: http://www.tagesschau.de/, Start: 00:15:49, Time: 9599 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 9372 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 9294 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 9360 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 9418 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 9392 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 4557 ms
+URL: http://www.tagesschau.de/, Start: 00:15:46, Time: 13997 ms
+URL: http://www.tagesschau.de/, Start: 00:15:51, Time: 9160 ms
+URL: http://www.tagesschau.de/, Start: 00:15:51, Time: 9096 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 4579 ms
+URL: http://www.tagesschau.de/, Start: 00:15:42, Time: 17793 ms
+URL: http://www.tagesschau.de/, Start: 00:15:51, Time: 9150 ms
+URL: http://www.tagesschau.de/, Start: 00:15:51, Time: 8962 ms
+URL: http://www.tagesschau.de/, Start: 00:15:51, Time: 9011 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 4400 ms
+URL: http://www.tagesschau.de/, Start: 00:15:52, Time: 8936 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 14239 ms
+URL: http://www.tagesschau.de/, Start: 00:15:52, Time: 8793 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 14169 ms
+URL: http://www.tagesschau.de/, Start: 00:15:44, Time: 17423 ms
+URL: http://www.tagesschau.de/, Start: 00:15:52, Time: 8748 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 4091 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8667 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8742 ms
+URL: http://www.tagesschau.de/, Start: 00:15:47, Time: 14198 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8674 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8664 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8707 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8633 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8560 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8463 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 14227 ms
+URL: http://www.tagesschau.de/, Start: 00:15:53, Time: 8530 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 8503 ms
+URL: http://www.tagesschau.de/, Start: 00:15:48, Time: 14161 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 4001 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 4018 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 8221 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 8380 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 8231 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 8125 ms
+URL: http://www.tagesschau.de/, Start: 00:15:59, Time: 3780 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 8008 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 12907 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 7892 ms
+URL: http://www.tagesschau.de/, Start: 00:15:59, Time: 3485 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 12610 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 8461 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 7839 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 7789 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 7746 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 7747 ms
+URL: http://www.tagesschau.de/, Start: 00:15:51, Time: 12228 ms
+URL: http://www.tagesschau.de/, Start: 00:16:00, Time: 3267 ms
+URL: http://www.tagesschau.de/, Start: 00:16:00, Time: 3456 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7682 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7578 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7590 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7542 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7522 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7452 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7430 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7437 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 7429 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7367 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7325 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7380 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 3256 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7347 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 3195 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7202 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 3272 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 3204 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7135 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7236 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7153 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 7136 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 3160 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 3142 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 3157 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 6986 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 6999 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 7112 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 7017 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 7110 ms
+URL: http://www.tagesschau.de/, Start: 00:16:02, Time: 3163 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 7011 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 7093 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 7033 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 7064 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 6985 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 11501 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 6979 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 6999 ms
+URL: http://www.tagesschau.de/, Start: 00:15:49, Time: 16619 ms
+URL: http://www.tagesschau.de/, Start: 00:15:54, Time: 11098 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 6985 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 7158 ms
+URL: http://www.tagesschau.de/, Start: 00:15:59, Time: 6749 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 2890 ms
+URL: http://www.tagesschau.de/, Start: 00:15:59, Time: 6620 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 2884 ms
+URL: http://www.tagesschau.de/, Start: 00:15:59, Time: 6503 ms
+URL: http://www.tagesschau.de/, Start: 00:15:59, Time: 6353 ms
+URL: http://www.tagesschau.de/, Start: 00:15:50, Time: 15567 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 2866 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 2834 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 10451 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 2844 ms
+URL: http://www.tagesschau.de/, Start: 00:16:00, Time: 6031 ms
+URL: http://www.tagesschau.de/, Start: 00:16:00, Time: 5997 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 2888 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 10408 ms
+URL: http://www.tagesschau.de/, Start: 00:16:00, Time: 5975 ms
+URL: http://www.tagesschau.de/, Start: 00:16:00, Time: 5961 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 2717 ms
+URL: http://www.tagesschau.de/, Start: 00:16:00, Time: 5968 ms
+URL: http://www.tagesschau.de/, Start: 00:16:00, Time: 5934 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 5882 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 2704 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 2646 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 2643 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 5712 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 9746 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 2641 ms
+URL: http://www.tagesschau.de/, Start: 00:15:52, Time: 14315 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 2595 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 5745 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 9602 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 9617 ms
+URL: http://www.tagesschau.de/, Start: 00:16:02, Time: 5643 ms
+URL: http://www.tagesschau.de/, Start: 00:16:02, Time: 5650 ms
+URL: http://www.tagesschau.de/, Start: 00:15:58, Time: 9516 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 2548 ms
+URL: http://www.tagesschau.de/, Start: 00:16:02, Time: 5581 ms
+URL: http://www.tagesschau.de/, Start: 00:16:02, Time: 5595 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 2525 ms
+URL: http://www.tagesschau.de/, Start: 00:16:02, Time: 5590 ms
+URL: http://www.tagesschau.de/, Start: 00:16:02, Time: 5630 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 2593 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 2537 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 2635 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 5373 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 5338 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 5397 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 5470 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 2752 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5412 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 2814 ms
+URL: http://www.tagesschau.de/, Start: 00:15:56, Time: 12796 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 2863 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5473 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 2904 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5569 ms
+URL: http://www.tagesschau.de/, Start: 00:15:57, Time: 12756 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5554 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5610 ms
+URL: http://www.tagesschau.de/, Start: 00:16:01, Time: 8726 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5622 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5610 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5782 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 5654 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5646 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5719 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 3204 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5662 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5702 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5650 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5646 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5710 ms
+URL: http://www.tagesschau.de/, Start: 00:16:02, Time: 8739 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5712 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5667 ms
+URL: http://www.tagesschau.de/, Start: 00:16:08, Time: 3230 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5663 ms
+URL: http://www.tagesschau.de/, Start: 00:16:08, Time: 3232 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 5626 ms
+URL: http://www.tagesschau.de/, Start: 00:15:59, Time: 12470 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 8505 ms
+URL: http://www.tagesschau.de/, Start: 00:15:55, Time: 16340 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 8391 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5764 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5726 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5713 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5708 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 8449 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5688 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 8518 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 8499 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5752 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 8440 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5763 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5691 ms
+URL: http://www.tagesschau.de/, Start: 00:16:03, Time: 8369 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5703 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 8334 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5714 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5680 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 8249 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 5659 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5656 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 8174 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5669 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5585 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 8179 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5619 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5653 ms
+URL: http://www.tagesschau.de/, Start: 00:16:04, Time: 8322 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5690 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5701 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5675 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 8248 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 2637 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 5689 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 8067 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 7946 ms
+URL: http://www.tagesschau.de/, Start: 00:16:08, Time: 5561 ms
+URL: http://www.tagesschau.de/, Start: 00:16:08, Time: 5534 ms
+URL: http://www.tagesschau.de/, Start: 00:16:08, Time: 5560 ms
+URL: http://www.tagesschau.de/, Start: 00:16:08, Time: 5511 ms
+URL: http://www.tagesschau.de/, Start: 00:16:08, Time: 5441 ms
+URL: http://www.tagesschau.de/, Start: 00:16:09, Time: 5299 ms
+URL: http://www.tagesschau.de/, Start: 00:16:06, Time: 7817 ms
+URL: http://www.tagesschau.de/, Start: 00:16:09, Time: 5052 ms
+URL: http://www.tagesschau.de/, Start: 00:16:09, Time: 5018 ms
+URL: http://www.tagesschau.de/, Start: 00:16:09, Time: 4945 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 4881 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 4945 ms
+URL: http://www.tagesschau.de/, Start: 00:16:07, Time: 7821 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 4679 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 4646 ms
+URL: http://www.tagesschau.de/, Start: 00:16:13, Time: 2170 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 4636 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 4505 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4346 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4350 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4329 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4303 ms
+URL: http://www.tagesschau.de/, Start: 00:16:05, Time: 9833 ms
+URL: http://www.tagesschau.de/, Start: 00:16:13, Time: 1904 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4209 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4264 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4194 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4195 ms
+URL: http://www.tagesschau.de/, Start: 00:16:11, Time: 4044 ms
+URL: http://www.tagesschau.de/, Start: 00:16:14, Time: 1726 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3994 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 4036 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3951 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3951 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3970 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3925 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3832 ms
+URL: http://www.tagesschau.de/, Start: 00:16:14, Time: 1669 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3823 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3708 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 3725 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 6024 ms
+URL: http://www.tagesschau.de/, Start: 00:16:13, Time: 3371 ms
+URL: http://www.tagesschau.de/, Start: 00:16:13, Time: 3145 ms
+URL: http://www.tagesschau.de/, Start: 00:16:15, Time: 1404 ms
+URL: http://www.tagesschau.de/, Start: 00:16:10, Time: 5957 ms
+URL: http://www.tagesschau.de/, Start: 00:16:08, Time: 8773 ms
+URL: http://www.tagesschau.de/, Start: 00:16:15, Time: 1308 ms
+URL: http://www.tagesschau.de/, Start: 00:16:15, Time: 1426 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 5210 ms
+URL: http://www.tagesschau.de/, Start: 00:16:12, Time: 4856 ms
+URL: http://www.tagesschau.de/, Start: 00:16:14, Time: 2628 ms
+URL: http://www.tagesschau.de/, Start: 00:16:14, Time: 2611 ms
+URL: http://www.tagesschau.de/, Start: 00:16:14, Time: 2656 ms
+URL: http://www.tagesschau.de/, Start: 00:16:15, Time: 2586 ms
+URL: http://www.tagesschau.de/, Start: 00:16:15, Time: 2465 ms
+URL: http://www.tagesschau.de/, Start: 00:16:15, Time: 2440 ms
+URL: http://www.tagesschau.de/, Start: 00:16:14, Time: 3669 ms
+URL: http://www.tagesschau.de/, Start: 00:16:17, Time: 664 ms
+URL: http://www.tagesschau.de/, Start: 00:16:16, Time: 1697 ms
+URL: http://www.tagesschau.de/, Start: 00:16:16, Time: 1820 ms
+URL: http://www.tagesschau.de/, Start: 00:16:16, Time: 1585 ms
+URL: http://www.tagesschau.de/, Start: 00:16:16, Time: 1358 ms
+URL: http://www.tagesschau.de/, Start: 00:16:16, Time: 1466 ms
+URL: http://www.tagesschau.de/, Start: 00:16:15, Time: 2529 ms
+URL: http://www.tagesschau.de/, Start: 00:16:15, Time: 2331 ms
+URL: http://www.tagesschau.de/, Start: 00:16:16, Time: 2310 ms
+URL: http://www.tagesschau.de/, Start: 00:16:18, Time: 513 ms
+URL: http://www.tagesschau.de/, Start: 00:16:17, Time: 911 ms
+URL: http://www.tagesschau.de/, Start: 00:16:18, Time: 271 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 1329 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 2246 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 2638 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 2661 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 2766 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 2916 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 3017 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 3547 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 3662 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 4358 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5094 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5118 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5436 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5427 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5801 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5873 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5871 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5954 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 5986 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6008 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6081 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6085 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6155 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6226 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6304 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6373 ms
+URL: http://www.tagesschau.de/, Start: 00:22:20, Time: 4971 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6423 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6479 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6516 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6569 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6595 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6692 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6736 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6789 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6823 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6874 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 6866 ms
+URL: http://www.tagesschau.de/, Start: 00:22:22, Time: 4410 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7101 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7154 ms
+URL: http://www.tagesschau.de/, Start: 00:22:22, Time: 4398 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7271 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7343 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7474 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7531 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7621 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7626 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7695 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7725 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7769 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7822 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7843 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7889 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7917 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 7979 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8020 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8055 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8095 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8129 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8152 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8227 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8294 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8388 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8461 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8519 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8535 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8595 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8608 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8681 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8692 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8755 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8828 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8901 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8938 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 8978 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9064 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9083 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9172 ms
+URL: http://www.tagesschau.de/, Start: 00:22:24, Time: 4119 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9278 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9287 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9339 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9385 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9438 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9444 ms
+URL: http://www.tagesschau.de/, Start: 00:22:24, Time: 4000 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9550 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 196 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9652 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 3831 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 3930 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 9908 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 10010 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 3681 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 10208 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 3669 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 3723 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 10456 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 3659 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 10587 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 10603 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 10649 ms
+URL: http://www.tagesschau.de/, Start: 00:22:22, Time: 7975 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 10701 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 10791 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 3638 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 3708 ms
+URL: http://www.tagesschau.de/, Start: 00:22:22, Time: 8025 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 3679 ms
+URL: http://www.tagesschau.de/, Start: 00:22:22, Time: 8007 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 3522 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 3489 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 3507 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 3469 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 11564 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 3445 ms
+URL: http://www.tagesschau.de/, Start: 00:22:22, Time: 8118 ms
+URL: http://www.tagesschau.de/, Start: 00:22:23, Time: 8072 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 3432 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 3363 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 3313 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 3247 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 12199 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 3220 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 12262 ms
+URL: http://www.tagesschau.de/, Start: 00:22:24, Time: 7187 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 3131 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 3062 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 12602 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 3001 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 3016 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 6651 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 6649 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 6682 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 6589 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 6681 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 6584 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 6537 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 2955 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 6509 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6537 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 2905 ms
+URL: http://www.tagesschau.de/, Start: 00:22:21, Time: 10933 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6446 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6456 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 2904 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6450 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6444 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6355 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 2808 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 13662 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 2791 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 2834 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6248 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6424 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 6261 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6263 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6191 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6069 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 2729 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6152 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6242 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6184 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 14368 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6206 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6161 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6159 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6184 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 6263 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 3387 ms
+URL: http://www.tagesschau.de/, Start: 00:22:23, Time: 10962 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 6872 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 3599 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 6887 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 6845 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 3691 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 6942 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 6958 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 6933 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 3904 ms
+URL: http://www.tagesschau.de/, Start: 00:22:24, Time: 10806 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 6883 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 6931 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 6944 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 6973 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 6988 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 4154 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 6974 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 7181 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 7210 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 7223 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 7234 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 7269 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 4521 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 7311 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 10866 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 10645 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 7315 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 10612 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 4721 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 4626 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 7377 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 7335 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 4745 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 4639 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 4651 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 7422 ms
+URL: http://www.tagesschau.de/, Start: 00:22:34, Time: 4588 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 10684 ms
+URL: http://www.tagesschau.de/, Start: 00:22:34, Time: 4029 ms
+URL: http://www.tagesschau.de/, Start: 00:22:34, Time: 4663 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 3929 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 10522 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 7524 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 3848 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 10540 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 7559 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 3791 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 7519 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 10520 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 3719 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 3822 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7616 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7642 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 14306 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7640 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7688 ms
+URL: http://www.tagesschau.de/, Start: 00:22:36, Time: 3646 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7653 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7686 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 14144 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7714 ms
+URL: http://www.tagesschau.de/, Start: 00:22:36, Time: 3602 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 10566 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7697 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7735 ms
+URL: http://www.tagesschau.de/, Start: 00:22:26, Time: 14133 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7711 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7726 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7753 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7891 ms
+URL: http://www.tagesschau.de/, Start: 00:22:29, Time: 10566 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7751 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7801 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 7892 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 8038 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 8020 ms
+URL: http://www.tagesschau.de/, Start: 00:22:19, Time: 21655 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 3636 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8124 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 10868 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8114 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 10947 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8178 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8154 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8207 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 10920 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8265 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 3706 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8278 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 3719 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8186 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8209 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 10890 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 8231 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 3596 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 10951 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 3608 ms
+URL: http://www.tagesschau.de/, Start: 00:22:34, Time: 7498 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 7432 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 7392 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 11030 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 3579 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 3567 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 14075 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 7229 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 7196 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 7212 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 3565 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 17690 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 3589 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 3488 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 11095 ms
+URL: http://www.tagesschau.de/, Start: 00:22:36, Time: 7097 ms
+URL: http://www.tagesschau.de/, Start: 00:22:36, Time: 7019 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 3488 ms
+URL: http://www.tagesschau.de/, Start: 00:22:36, Time: 7019 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 3489 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 3526 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 3467 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 6813 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 3448 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 6797 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 6809 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 6783 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 6814 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 3188 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 6736 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 6765 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 3169 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 3135 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 6710 ms
+URL: http://www.tagesschau.de/, Start: 00:22:27, Time: 17254 ms
+URL: http://www.tagesschau.de/, Start: 00:22:30, Time: 13828 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 6707 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 3029 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 11155 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 6809 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 6682 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 6727 ms
+URL: http://www.tagesschau.de/, Start: 00:22:31, Time: 13958 ms
+URL: http://www.tagesschau.de/, Start: 00:22:34, Time: 10941 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 6718 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 6653 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 6658 ms
+URL: http://www.tagesschau.de/, Start: 00:22:34, Time: 10648 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 17335 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 6685 ms
+URL: http://www.tagesschau.de/, Start: 00:22:28, Time: 17086 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6560 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6584 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6527 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6607 ms
+URL: http://www.tagesschau.de/, Start: 00:22:25, Time: 20779 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 3096 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6497 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6508 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6553 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6509 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6562 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 6520 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 3100 ms
+URL: http://www.tagesschau.de/, Start: 00:22:32, Time: 14181 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 6555 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 6520 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 6473 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 6483 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 6558 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 6482 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 3105 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 6467 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 3106 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 6449 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 3077 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 3042 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 3050 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 6108 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 6067 ms
+URL: http://www.tagesschau.de/, Start: 00:22:37, Time: 9640 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 6050 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 6062 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 6091 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 5997 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 6023 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 5958 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 3028 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5918 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 5946 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5960 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 2891 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 2920 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5852 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 2876 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5867 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5856 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5834 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 2885 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5922 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5973 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 9440 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5947 ms
+URL: http://www.tagesschau.de/, Start: 00:22:35, Time: 13160 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5995 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5897 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 5961 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 5948 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 9365 ms
+URL: http://www.tagesschau.de/, Start: 00:22:39, Time: 9403 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 6006 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 5961 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 5968 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 5944 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 2937 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 2921 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 2923 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 9334 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 2960 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 2958 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6006 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6022 ms
+URL: http://www.tagesschau.de/, Start: 00:22:33, Time: 17138 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 3108 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6061 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 9126 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 9524 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6149 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 3160 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 9154 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6161 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6128 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 3138 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6144 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6112 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 3156 ms
+URL: http://www.tagesschau.de/, Start: 00:22:41, Time: 8969 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 6044 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 6043 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 3174 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5972 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5923 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5949 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 3167 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5937 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5949 ms
+URL: http://www.tagesschau.de/, Start: 00:22:38, Time: 12493 ms
+URL: http://www.tagesschau.de/, Start: 00:22:42, Time: 8930 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5998 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5908 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5850 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 5841 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 2950 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 8885 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5816 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 2926 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5728 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5747 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5752 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5732 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 8758 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5708 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5711 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 8748 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5721 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5695 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 11965 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5673 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5701 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 11910 ms
+URL: http://www.tagesschau.de/, Start: 00:22:43, Time: 8686 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 5616 ms
+URL: http://www.tagesschau.de/, Start: 00:22:40, Time: 11803 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 5626 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 8549 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 2746 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 2636 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 5665 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 8703 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 2813 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 5705 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 8710 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 5773 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 5772 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 5765 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 2666 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 8579 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 2680 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 5818 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 5798 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 2756 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 2899 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5867 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 2835 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 181 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 104 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 2868 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5919 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5939 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 6004 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 6000 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5967 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5940 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5900 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 2961 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5861 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5857 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 2991 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 5816 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 2954 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 107 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 2973 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 112 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 5790 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 3014 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 5809 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 5848 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 5812 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 3015 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 3025 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 8589 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 5803 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 3048 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 5780 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 3032 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 3049 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 3058 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5648 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5598 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5492 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5529 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 3014 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5492 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5468 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5508 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5530 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 2964 ms
+URL: http://www.tagesschau.de/, Start: 00:22:44, Time: 11557 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 5537 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 8620 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 2937 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 8602 ms
+URL: http://www.tagesschau.de/, Start: 00:22:47, Time: 8567 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 2899 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 5542 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 8644 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 5499 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 11409 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 2798 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 5584 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 5541 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 2709 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 5562 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 5511 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 2703 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 2691 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 8423 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 2689 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 8492 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 2674 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 8294 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 5567 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 5532 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 2631 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 2607 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 8321 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 5576 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 5578 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 5556 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 2667 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 8455 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 5826 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 6047 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 8629 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 3058 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 6084 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 6106 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 3145 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 6182 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 6173 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 6112 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3249 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 6119 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3327 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3333 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 6195 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 6215 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 6231 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 8847 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 6247 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 6235 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3464 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3521 ms
+URL: http://www.tagesschau.de/, Start: 00:22:45, Time: 14891 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3548 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3577 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3621 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 9068 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 9028 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 3607 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 6269 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 6223 ms
+URL: http://www.tagesschau.de/, Start: 00:22:48, Time: 12008 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 6295 ms
+URL: http://www.tagesschau.de/, Start: 00:22:57, Time: 3612 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 6263 ms
+URL: http://www.tagesschau.de/, Start: 00:22:46, Time: 14797 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 6251 ms
+URL: http://www.tagesschau.de/, Start: 00:22:51, Time: 9155 ms
+URL: http://www.tagesschau.de/, Start: 00:22:57, Time: 3669 ms
+URL: http://www.tagesschau.de/, Start: 00:22:57, Time: 3666 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 6241 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 6249 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 9155 ms
+URL: http://www.tagesschau.de/, Start: 00:22:57, Time: 3864 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6343 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6315 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 9285 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6329 ms
+URL: http://www.tagesschau.de/, Start: 00:22:57, Time: 3800 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 9301 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6348 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6407 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 9371 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 9407 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6452 ms
+URL: http://www.tagesschau.de/, Start: 00:22:52, Time: 9420 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 11864 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6419 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6380 ms
+URL: http://www.tagesschau.de/, Start: 00:22:58, Time: 3370 ms
+URL: http://www.tagesschau.de/, Start: 00:22:50, Time: 11774 ms
+URL: http://www.tagesschau.de/, Start: 00:22:55, Time: 6441 ms
+URL: http://www.tagesschau.de/, Start: 00:22:59, Time: 3263 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 6539 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 9312 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 6531 ms
+URL: http://www.tagesschau.de/, Start: 00:22:59, Time: 3235 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 6508 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 6510 ms
+URL: http://www.tagesschau.de/, Start: 00:22:59, Time: 3203 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 6519 ms
+URL: http://www.tagesschau.de/, Start: 00:22:59, Time: 3181 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 6473 ms
+URL: http://www.tagesschau.de/, Start: 00:22:53, Time: 9195 ms
+URL: http://www.tagesschau.de/, Start: 00:22:59, Time: 3146 ms
+URL: http://www.tagesschau.de/, Start: 00:23:00, Time: 3012 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 9070 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 6511 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 9105 ms
+URL: http://www.tagesschau.de/, Start: 00:22:56, Time: 6451 ms
+URL: http://www.tagesschau.de/, Start: 00:23:00, Time: 2976 ms
+URL: http://www.tagesschau.de/, Start: 00:22:57, Time: 6461 ms
+URL: http://www.tagesschau.de/, Start: 00:22:57, Time: 6521 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 9030 ms
+URL: http://www.tagesschau.de/, Start: 00:23:00, Time: 2879 ms
+URL: http://www.tagesschau.de/, Start: 00:23:00, Time: 2895 ms
+URL: http://www.tagesschau.de/, Start: 00:22:57, Time: 6485 ms
+URL: http://www.tagesschau.de/, Start: 00:22:49, Time: 14763 ms
+URL: http://www.tagesschau.de/, Start: 00:23:01, Time: 2924 ms
+URL: http://www.tagesschau.de/, Start: 00:22:54, Time: 9076 ms
