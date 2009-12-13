@@ -1,10 +1,19 @@
 <?xml version="1.0"?>
 <configuration>
-    <numberOfTerminals>100</numberOfTerminals>
-    <latencyExpectation>50</latencyExpectation>
+    <numberOfTerminals>1</numberOfTerminals>
+    <latencyExpectation>25</latencyExpectation>
+    <cycleCount>10</cycleCount>
     <website>
         <url>http://www.tagesschau.de/</url>
         <supplementaryUrl>http://www.tagesschau.de</supplementaryUrl>
-        <frequency>10</frequency>
+        <probability>60</probability>
+    </website>
+    <website>
+        <url>http://www.zdf.de/</url>
+        <probability>30</probability>
+    </website>
+    <website>
+        <url>http://www.ard.de/</url>
+        <probability>10</probability>
     </website>
 </configuration>

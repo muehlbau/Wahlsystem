@@ -61,6 +61,7 @@ public class Benchmark {
         try {
             int terminals = 0;
             float latencyExpectation = 0;
+            int cycleCount = 0;
             
             // Parse configuration XML.
             DocumentBuilderFactory dobuf = DocumentBuilderFactory.newInstance();
@@ -89,28 +90,51 @@ public class Benchmark {
                 System.exit(-1);
             }
             
+            // Read cycle count.
+            NodeList numCycles = doc.getElementsByTagName("cycleCount");
+            if (numCycles.getLength() == 1) {
+            	cycleCount = Integer.parseInt(numCycles.item(0).getTextContent());
+                LOGGER.debug(String.format("Number of cycles: %s", cycleCount));
+            } else {
+                LOGGER.error("Ambiguous or missing specification of number of cycles!");
+                System.exit(-1);
+            }
+            
+            // Determine gcd of probability of the different URLs. (for minimal card deck)
+            NodeList websites = doc.getElementsByTagName("website");
+            int gcd = 0;
+            for (int i = 0; i < websites.getLength(); i++) {
+                NodeList children = websites.item(i).getChildNodes();
+                // Read frequency of each URL.
+                for (int j = 0; j < children.getLength(); j++) {
+                    if (children.item(j).getNodeName().equals("probability")) {
+                        gcd = GCD(gcd, Integer.parseInt(children.item(j).getTextContent()));
+                    }
+                }
+            }
+            
             // Create website configurations for each website to be tested.
             ArrayList<WebsiteConfiguration> websiteConfigurations
                                                         = new ArrayList<WebsiteConfiguration>();
-            NodeList websites = doc.getElementsByTagName("website");
             for (int i = 0; i < websites.getLength(); i++) {
                 NodeList children = websites.item(i).getChildNodes();
                 String url = new String();
                 List<String> supplementaryURLs = new LinkedList<String>();
-                int frequency = 0;
+                int probability = 0;
                 // Read main URL, frequency and supplementary URLs.
                 for (int j = 0; j < children.getLength(); j++) {
                     if (children.item(j).getNodeName().equals("url")) {
                         url = children.item(j).getTextContent();
-                    } else if (children.item(j).getNodeName().equals("frequency")) {
-                        frequency = Integer.parseInt(children.item(j).getTextContent());
+                    } else if (children.item(j).getNodeName().equals("probability")) {
+                    	probability = Integer.parseInt(children.item(j).getTextContent()) 
+                        			/ ((gcd != 0) ? gcd : 1);
                     } else if (children.item(j).getNodeName().equals("supplementaryUrl")) {
                         supplementaryURLs.add(children.item(j).getTextContent());
                     }
                 }
                 // Add website to configurations.
                 if (!url.isEmpty()) {
-                    for (int j = 0; j < frequency; j++) {
+                    for (int j = 0; j < probability; j++) {
                         websiteConfigurations.add(new WebsiteConfiguration(url,
                                 supplementaryURLs));
                     }
@@ -130,7 +154,7 @@ public class Benchmark {
             for (int i = 0; i < terminals; i++) {
                 threads[i] = new BenchmarkThread(httpClient,
                 		new ArrayList<WebsiteConfiguration>(websiteConfigurations),
-                		latencyExpectation);
+                		latencyExpectation, cycleCount);
             }
             
             // Start terminals.
@@ -156,6 +180,18 @@ public class Benchmark {
     }
     
     /**
+     * Determine gcd of a and b.
+     * @param a First parameter.
+     * @param b Second parameter.
+     * @return GCD of first and second parameter.
+     */
+    public static int GCD(int a, int b)
+    {
+       if (b == 0) return a;
+       return GCD(b, a % b);
+    }
+    
+    /**
      * Benchmark thread that shuffles the order in which websites are called, establishes HTTP
      * connections and measures response times.
      */
@@ -168,6 +204,8 @@ public class Benchmark {
         private final ArrayList<WebsiteConfiguration> configurations;
         /** Latency between website calls. */
         private final float latencyExpectation;
+        /** Cycle count. */
+        private final int cycleCount;
         
         /**
          * Constructor.
@@ -176,13 +214,12 @@ public class Benchmark {
          * @param latencyExpectation
          */
         public BenchmarkThread(HttpClient httpClient, ArrayList<WebsiteConfiguration> configurations,
-        		float latencyExpectation) {
+        		float latencyExpectation, int cycleCount) {
             this.httpClient = httpClient;
             this.context = new BasicHttpContext();
             this.configurations = configurations;
             this.latencyExpectation = latencyExpectation;
-            // Shuffle websites.
-            Collections.shuffle(configurations);
+            this.cycleCount = cycleCount;
         }
         
         /**
@@ -190,35 +227,39 @@ public class Benchmark {
          */
         @Override
         public void run() {
-//        	long sum = 0;
-            try {
-            	// Load the websites one after the other.
-                for (WebsiteConfiguration config : configurations) {
-                    long start = System.currentTimeMillis();
-                    HttpGet getURL = new HttpGet(config.getURL());
-                    HttpResponse responseURL = httpClient.execute(getURL, context);
-                    HttpEntity entityURL = responseURL.getEntity();
-                    entityURL.consumeContent();
-                    // Get all supplementary URLs.
-                    for (String url : config.getSupplementaryURLs()) {
-                        HttpGet get = new HttpGet(url);
-                        HttpResponse response = httpClient.execute(get, context);
-                        HttpEntity entity = response.getEntity();
-                        entity.consumeContent();
-                    }
-            		Date date = new Date(start);
-            		// Log result.
-                    LOGGER.info(String.format("URL: %s, Start: %tT, Time: %s ms", config.getURL(), date,
-                    		System.currentTimeMillis() - start));
-                    // Wait some time to achieve latency expectation.
-                    long timeToWait = (long) (latencyExpectation + (0.5 - Math.random()) * latencyExpectation);
-//                    sum += timeToWait;
-                    Thread.sleep(timeToWait);
-                }
-            } catch (Exception exc) {
-                LOGGER.error("An error occured during the benchmark!", exc);
-            }
-//            System.out.println("Erwartungswert: " + sum/configurations.size() + " = " + latencyExpectation);
+        	// Test website mix the defined number of times.
+        	for (int i = 0; i < cycleCount; i++)
+        	{
+                // Shuffle websites.
+                Collections.shuffle(configurations);
+	            try {
+	            	// Load the websites one after the other.
+	                for (WebsiteConfiguration config : configurations) {
+	                    long start = System.currentTimeMillis();
+	                    HttpGet getURL = new HttpGet(config.getURL());
+	                    HttpResponse responseURL = httpClient.execute(getURL, context);
+	                    HttpEntity entityURL = responseURL.getEntity();
+	                    entityURL.consumeContent();
+	                    // Get all supplementary URLs.
+	                    for (String url : config.getSupplementaryURLs()) {
+	                        HttpGet get = new HttpGet(url);
+	                        HttpResponse response = httpClient.execute(get, context);
+	                        HttpEntity entity = response.getEntity();
+	                        entity.consumeContent();
+	                    }
+	            		Date date = new Date(start);
+	            		// Log result.
+	                    LOGGER.info(String.format("URL: %s, Start: %tT, Time: %s ms", config.getURL(), date,
+	                    		System.currentTimeMillis() - start));
+	                    // Wait some time to achieve latency expectation.
+	                    long timeToWait = (long) (latencyExpectation + (0.5 - Math.random()) * latencyExpectation);
+	                    Thread.sleep(timeToWait);
+	                }
+	            } catch (Exception exc) {
+	                LOGGER.error("An error occured during the benchmark!", exc);
+	            }
+	        LOGGER.info("End of cycle no. " + (i+1) + ".");
+        	}
         }
     }
     
