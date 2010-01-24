@@ -1,4 +1,4 @@
-"Landesliste";"Kandidat";"Position"
+Landesliste;Kandidat;Position
 1;2;50
 2;3;30
 3;4;10
@@ -160,6 +160,7 @@
 1;205;27
 29;206;9
 94;207;53
+150;208;8
 95;211;8
 96;212;6
 92;213;39
