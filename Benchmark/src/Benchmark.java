@@ -161,11 +161,16 @@ public class Benchmark {
             for (int i = 0; i < terminals; i++) {
                 threads[i].start();
             }
-
+            LOGGER.info("Benchmark started.");
+            long millis = System.currentTimeMillis();
             // Wait for terminals to finish.
             for (int i = 0; i < terminals; i++) {
                 threads[i].join();
             }
+            double time = (System.currentTimeMillis() - millis) / 1000;
+            double transactions = terminals * cycleCount * 7;
+            double output = transactions/time;
+            LOGGER.info("Duration: " + time + " s; performance: " + output + " ta/s");
         } catch (ParserConfigurationException pce) {
             LOGGER.error("Serious configuration error!", pce);
         } catch(SAXException se) {
@@ -235,7 +240,7 @@ public class Benchmark {
 	            try {
 	            	// Load the websites one after the other.
 	                for (WebsiteConfiguration config : configurations) {
-	                    long start = System.currentTimeMillis();
+	                    //long start = System.currentTimeMillis();
 	                    HttpGet getURL = new HttpGet(config.getURL());
 	                    HttpResponse responseURL = httpClient.execute(getURL, context);
 	                    HttpEntity entityURL = responseURL.getEntity();
@@ -247,10 +252,10 @@ public class Benchmark {
 	                        HttpEntity entity = response.getEntity();
 	                        entity.consumeContent();
 	                    }
-	            		Date date = new Date(start);
+	            		//Date date = new Date(start);
 	            		// Log result.
-	                    LOGGER.info(String.format("URL: %s, Start: %tT, Time: %s ms", config.getURL(), date,
-	                    		System.currentTimeMillis() - start));
+	                    //LOGGER.info(String.format("URL: %s, Start: %tT, Time: %s ms", config.getURL(), date,
+	                    //		System.currentTimeMillis() - start));
 	                    // Wait some time to achieve latency expectation.
 	                    long timeToWait = (long) (latencyExpectation + (0.5 - Math.random()) * latencyExpectation);
 	                    Thread.sleep(timeToWait);
